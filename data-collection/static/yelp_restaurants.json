@@ -10,7 +10,7 @@
     "categories": [{ "alias": "szechuan", "title": "Szechuan" }],
     "rating": 4.5,
     "coordinates": { "latitude": 40.76292, "longitude": -73.976546 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "location": {
       "address1": "40 W 56th St",
       "address2": null,
@@ -23,7 +23,8 @@
     },
     "phone": "+12122132299",
     "display_phone": "(212) 213-2299",
-    "distance": 348.0137568924224
+    "distance": 348.0137568924224,
+    "cuisine": "Chinese"
   },
   {
     "id": "BNaveJmi-OUGKG9sRfrIhA",
@@ -39,7 +40,7 @@
     ],
     "rating": 4.5,
     "coordinates": { "latitude": 40.75809, "longitude": -73.98026 },
-    "transactions": ["pickup", "restaurant_reservation", "delivery"],
+    "transactions": ["delivery", "restaurant_reservation", "pickup"],
     "price": "$$",
     "location": {
       "address1": "48 W 48th St",
@@ -53,271 +54,8 @@
     },
     "phone": "+17183169811",
     "display_phone": "(718) 316-9811",
-    "distance": 294.7943077003694
-  },
-  {
-    "id": "0CjK3esfpFcxIopebzjFxA",
-    "alias": "joes-shanghai-new-york-2",
-    "name": "Joe's Shanghai",
-    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/gkp9bzPqrcaWIvgOJbatQw/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/joes-shanghai-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 7237,
-    "categories": [
-      { "alias": "shanghainese", "title": "Shanghainese" },
-      { "alias": "seafood", "title": "Seafood" },
-      { "alias": "noodles", "title": "Noodles" }
-    ],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.7156608, "longitude": -73.9967012 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "46 Bowery St",
-      "address2": "",
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10013",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["46 Bowery St", "New York, NY 10013"]
-    },
-    "phone": "+12122338888",
-    "display_phone": "(212) 233-8888",
-    "distance": 5186.084789776587
-  },
-  {
-    "id": "ojbH3wnRu050hRhkmoxRiA",
-    "alias": "han-dynasty-new-york-8",
-    "name": "Han Dynasty",
-    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/-aIQqghSAjISvaYL-9w5oA/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/han-dynasty-new-york-8?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 710,
-    "categories": [{ "alias": "szechuan", "title": "Szechuan" }],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.78752, "longitude": -73.97647 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "215 W 85th St",
-      "address2": "",
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10024",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["215 W 85th St", "New York, NY 10024"]
-    },
-    "phone": "+12128589060",
-    "display_phone": "(212) 858-9060",
-    "distance": 3041.5260429295026
-  },
-  {
-    "id": "wfhMIiMh2A2psCGONOVSlg",
-    "alias": "han-dynasty-new-york",
-    "name": "Han Dynasty",
-    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/G5jm9G3m_tquqwDm_qHoVQ/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/han-dynasty-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1358,
-    "categories": [
-      { "alias": "szechuan", "title": "Szechuan" },
-      { "alias": "noodles", "title": "Noodles" },
-      { "alias": "beerbar", "title": "Beer Bar" }
-    ],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.732072, "longitude": -73.988074 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "90 3rd Ave",
-      "address2": "",
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10003",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["90 3rd Ave", "New York, NY 10003"]
-    },
-    "phone": "+12123908685",
-    "display_phone": "(212) 390-8685",
-    "distance": 3231.601932577536
-  },
-  {
-    "id": "83zDAk03lFXkgImgkLhT9w",
-    "alias": "chi-restaurant-and-bar-new-york",
-    "name": "Chi Restaurant & Bar",
-    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/i88DTquqvXDMHv6tryKwqQ/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/chi-restaurant-and-bar-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 91,
-    "categories": [
-      { "alias": "bars", "title": "Bars" },
-      { "alias": "szechuan", "title": "Szechuan" }
-    ],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.75547, "longitude": -73.99439 },
-    "transactions": ["pickup", "restaurant_reservation", "delivery"],
-    "location": {
-      "address1": "492 9th Ave",
-      "address2": null,
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10018",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["492 9th Ave", "New York, NY 10018"]
-    },
-    "phone": "+12129181470",
-    "display_phone": "(212) 918-1470",
-    "distance": 1445.4839385183982
-  },
-  {
-    "id": "lynQoI3w_pzYfHGeuUU-Qg",
-    "alias": "shu-jiao-fu-zhou-new-york-2",
-    "name": "Shu Jiao Fu Zhou",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Nmkgn1o5hidyES6mWk8VHg/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/shu-jiao-fu-zhou-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1314,
-    "categories": [{ "alias": "chinese", "title": "Chinese" }],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.7174109, "longitude": -73.99210041198651 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$",
-    "location": {
-      "address1": "295 Grand St",
-      "address2": null,
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10002",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["295 Grand St", "New York, NY 10002"]
-    },
-    "phone": "+12126252532",
-    "display_phone": "(212) 625-2532",
-    "distance": 4895.564059232317
-  },
-  {
-    "id": "xq0cX_DgxiJMXwhmEl9kUA",
-    "alias": "caf\u00e9-china-new-york-2",
-    "name": "Caf\u00e9 China",
-    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/UhHqxEX2epOvrBFI2pgRzg/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/caf%C3%A9-china-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1919,
-    "categories": [{ "alias": "szechuan", "title": "Szechuan" }],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.751587, "longitude": -73.985815 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "59 W 37th St",
-      "address2": null,
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10018",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["59 W 37th St", "New York, NY 10018"]
-    },
-    "phone": "+12122132810",
-    "display_phone": "(212) 213-2810",
-    "distance": 1118.7690144757516
-  },
-  {
-    "id": "p4xNh2NAy85Br77XaomFOw",
-    "alias": "oohu-new-york",
-    "name": "OOHU",
-    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/H-1YRNcl0ctmHyNjorSesA/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/oohu-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 32,
-    "categories": [
-      { "alias": "szechuan", "title": "Szechuan" },
-      { "alias": "cantonese", "title": "Cantonese" },
-      { "alias": "seafood", "title": "Seafood" }
-    ],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.751493955047785, "longitude": -73.9883517 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "128 W 36th St",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10018",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["128 W 36th St", "New York, NY 10018"]
-    },
-    "phone": "+12125758899",
-    "display_phone": "(212) 575-8899",
-    "distance": 1276.2819746521077
-  },
-  {
-    "id": "oowNI_aUmGEFa_VW8BFgRg",
-    "alias": "tri-dim-shanghai-new-york-4",
-    "name": "Tri Dim Shanghai",
-    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/-HycyO1XNiKGN8q28RYATg/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/tri-dim-shanghai-new-york-4?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 538,
-    "categories": [
-      { "alias": "shanghainese", "title": "Shanghainese" },
-      { "alias": "dimsum", "title": "Dim Sum" },
-      { "alias": "szechuan", "title": "Szechuan" }
-    ],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.773951, "longitude": -73.957927 },
-    "transactions": ["pickup", "restaurant_reservation", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "1378 3rd Ave",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10075",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["1378 3rd Ave", "New York, NY 10075"]
-    },
-    "phone": "+12125853388",
-    "display_phone": "(212) 585-3388",
-    "distance": 2311.776214972571
-  },
-  {
-    "id": "bVkjBJlAIwKAj9Aw1KVWjA",
-    "alias": "dim-sum-palace-new-york-8",
-    "name": "Dim Sum Palace",
-    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/5Dg8lWgTRJ0kIyv5jfqOnw/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/dim-sum-palace-new-york-8?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1717,
-    "categories": [
-      { "alias": "dimsum", "title": "Dim Sum" },
-      { "alias": "cantonese", "title": "Cantonese" }
-    ],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.76015, "longitude": -73.9893699 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "334 W 46th St",
-      "address2": null,
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10036",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["334 W 46th St", "New York, NY 10036"]
-    },
-    "phone": "+16468611910",
-    "display_phone": "(646) 861-1910",
-    "distance": 913.3425917326555
+    "distance": 294.7943077003694,
+    "cuisine": "Chinese"
   },
   {
     "id": "h0pRCiJDrCN7tm3VX5tILQ",
@@ -334,7 +72,7 @@
     ],
     "rating": 4.5,
     "coordinates": { "latitude": 40.75002, "longitude": -73.98215 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "13 E 37th St",
@@ -348,7 +86,369 @@
     },
     "phone": "+16468820666",
     "display_phone": "(646) 882-0666",
-    "distance": 1163.9244903415918
+    "distance": 1163.9244903415918,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "0CjK3esfpFcxIopebzjFxA",
+    "alias": "joes-shanghai-new-york-2",
+    "name": "Joe's Shanghai",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/gkp9bzPqrcaWIvgOJbatQw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/joes-shanghai-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 7239,
+    "categories": [
+      { "alias": "shanghainese", "title": "Shanghainese" },
+      { "alias": "seafood", "title": "Seafood" },
+      { "alias": "noodles", "title": "Noodles" }
+    ],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.7156608, "longitude": -73.9967012 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "46 Bowery St",
+      "address2": "",
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10013",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["46 Bowery St", "New York, NY 10013"]
+    },
+    "phone": "+12122338888",
+    "display_phone": "(212) 233-8888",
+    "distance": 5186.084789776587,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "ojbH3wnRu050hRhkmoxRiA",
+    "alias": "han-dynasty-new-york-8",
+    "name": "Han Dynasty",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/-aIQqghSAjISvaYL-9w5oA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/han-dynasty-new-york-8?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 710,
+    "categories": [{ "alias": "szechuan", "title": "Szechuan" }],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.78752, "longitude": -73.97647 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "215 W 85th St",
+      "address2": "",
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10024",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["215 W 85th St", "New York, NY 10024"]
+    },
+    "phone": "+12128589060",
+    "display_phone": "(212) 858-9060",
+    "distance": 3041.5260429295026,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "83zDAk03lFXkgImgkLhT9w",
+    "alias": "chi-restaurant-and-bar-new-york",
+    "name": "Chi Restaurant & Bar",
+    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/i88DTquqvXDMHv6tryKwqQ/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/chi-restaurant-and-bar-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 91,
+    "categories": [
+      { "alias": "bars", "title": "Bars" },
+      { "alias": "szechuan", "title": "Szechuan" }
+    ],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.75547, "longitude": -73.99439 },
+    "transactions": ["delivery", "restaurant_reservation", "pickup"],
+    "location": {
+      "address1": "492 9th Ave",
+      "address2": null,
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10018",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["492 9th Ave", "New York, NY 10018"]
+    },
+    "phone": "+12129181470",
+    "display_phone": "(212) 918-1470",
+    "distance": 1445.4839385183982,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "wfhMIiMh2A2psCGONOVSlg",
+    "alias": "han-dynasty-new-york",
+    "name": "Han Dynasty",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/G5jm9G3m_tquqwDm_qHoVQ/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/han-dynasty-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 1359,
+    "categories": [
+      { "alias": "szechuan", "title": "Szechuan" },
+      { "alias": "noodles", "title": "Noodles" },
+      { "alias": "beerbar", "title": "Beer Bar" }
+    ],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.732072, "longitude": -73.988074 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "90 3rd Ave",
+      "address2": "",
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10003",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["90 3rd Ave", "New York, NY 10003"]
+    },
+    "phone": "+12123908685",
+    "display_phone": "(212) 390-8685",
+    "distance": 3231.601932577536,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "xq0cX_DgxiJMXwhmEl9kUA",
+    "alias": "caf\u00e9-china-new-york-2",
+    "name": "Caf\u00e9 China",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/UhHqxEX2epOvrBFI2pgRzg/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/caf%C3%A9-china-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 1920,
+    "categories": [{ "alias": "szechuan", "title": "Szechuan" }],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.751587, "longitude": -73.985815 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "59 W 37th St",
+      "address2": null,
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10018",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["59 W 37th St", "New York, NY 10018"]
+    },
+    "phone": "+12122132810",
+    "display_phone": "(212) 213-2810",
+    "distance": 1118.7690144757516,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "0dDCDQz7DrKkSvu9h2hcQw",
+    "alias": "chow-house-new-york",
+    "name": "Chow House",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/kzeClsI9_2tkHqKScotx1Q/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/chow-house-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 634,
+    "categories": [
+      { "alias": "szechuan", "title": "Szechuan" },
+      { "alias": "noodles", "title": "Noodles" },
+      { "alias": "soup", "title": "Soup" }
+    ],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.72915, "longitude": -74.00072 },
+    "transactions": ["delivery", "restaurant_reservation", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "181 Bleecker St",
+      "address2": null,
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10012",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["181 Bleecker St", "New York, NY 10012"]
+    },
+    "phone": "+12128371021",
+    "display_phone": "(212) 837-1021",
+    "distance": 3928.8169129232433,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "lynQoI3w_pzYfHGeuUU-Qg",
+    "alias": "shu-jiao-fu-zhou-new-york-2",
+    "name": "Shu Jiao Fu Zhou",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Nmkgn1o5hidyES6mWk8VHg/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/shu-jiao-fu-zhou-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 1314,
+    "categories": [{ "alias": "chinese", "title": "Chinese" }],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.7174109, "longitude": -73.99210041198651 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$",
+    "location": {
+      "address1": "295 Grand St",
+      "address2": null,
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10002",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["295 Grand St", "New York, NY 10002"]
+    },
+    "phone": "+12126252532",
+    "display_phone": "(212) 625-2532",
+    "distance": 4895.564059232317,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "jc7lVTvmYMIK5RNpENtS6w",
+    "alias": "szechuan-mountain-house-new-york-2",
+    "name": "Szechuan Mountain House",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/VmRw8ZSq_dm_z-AiZuo_Yw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/szechuan-mountain-house-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 667,
+    "categories": [{ "alias": "szechuan", "title": "Szechuan" }],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.72911, "longitude": -73.98858 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "23 St Marks Pl",
+      "address2": "",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10003",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["23 St Marks Pl", "New York, NY 10003"]
+    },
+    "phone": "+19173883866",
+    "display_phone": "(917) 388-3866",
+    "distance": 3550.4406899367855,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "bVkjBJlAIwKAj9Aw1KVWjA",
+    "alias": "dim-sum-palace-new-york-8",
+    "name": "Dim Sum Palace",
+    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/5Dg8lWgTRJ0kIyv5jfqOnw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/dim-sum-palace-new-york-8?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 1717,
+    "categories": [
+      { "alias": "dimsum", "title": "Dim Sum" },
+      { "alias": "cantonese", "title": "Cantonese" }
+    ],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.76015, "longitude": -73.9893699 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "334 W 46th St",
+      "address2": null,
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10036",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["334 W 46th St", "New York, NY 10036"]
+    },
+    "phone": "+16468611910",
+    "display_phone": "(646) 861-1910",
+    "distance": 913.3425917326555,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "wDuf4Qz9qsC62amLZgWNJQ",
+    "alias": "little-alley-new-york",
+    "name": "Little Alley",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/YgboZ55f3R6cxa_gO7BVHQ/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/little-alley-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 534,
+    "categories": [{ "alias": "shanghainese", "title": "Shanghainese" }],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.74744, "longitude": -73.97728 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "550 3rd Ave",
+      "address2": null,
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10016",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["550 3rd Ave", "New York, NY 10016"]
+    },
+    "phone": "+16469983976",
+    "display_phone": "(646) 998-3976",
+    "distance": 1425.680172797434,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "oowNI_aUmGEFa_VW8BFgRg",
+    "alias": "tri-dim-shanghai-new-york-4",
+    "name": "Tri Dim Shanghai",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/-HycyO1XNiKGN8q28RYATg/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/tri-dim-shanghai-new-york-4?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 539,
+    "categories": [
+      { "alias": "shanghainese", "title": "Shanghainese" },
+      { "alias": "dimsum", "title": "Dim Sum" },
+      { "alias": "szechuan", "title": "Szechuan" }
+    ],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.773951, "longitude": -73.957927 },
+    "transactions": ["delivery", "restaurant_reservation", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "1378 3rd Ave",
+      "address2": "",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10075",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["1378 3rd Ave", "New York, NY 10075"]
+    },
+    "phone": "+12125853388",
+    "display_phone": "(212) 585-3388",
+    "distance": 2311.776214972571,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "QaolMEijS7L6eodSneOdng",
+    "alias": "tri-dim-shanghai-west-new-york-3",
+    "name": "Tri Dim Shanghai West",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/N-YlevGHM_fG7NI_5xRbzw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/tri-dim-shanghai-west-new-york-3?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 226,
+    "categories": [
+      { "alias": "shanghainese", "title": "Shanghainese" },
+      { "alias": "szechuan", "title": "Szechuan" },
+      { "alias": "dimsum", "title": "Dim Sum" }
+    ],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.78412, "longitude": -73.97368 },
+    "transactions": ["delivery", "restaurant_reservation", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "467 Columbus Ave",
+      "address2": "",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10024",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["467 Columbus Ave", "New York, NY 10024"]
+    },
+    "phone": "+12125851398",
+    "display_phone": "(212) 585-1398",
+    "distance": 2688.936836316399,
+    "cuisine": "Chinese"
   },
   {
     "id": "X8ZS-dgiMIJvhwf9SaDnjw",
@@ -378,95 +478,72 @@
     },
     "phone": "+12129255175",
     "display_phone": "(212) 925-5175",
-    "distance": 4955.254078383452
+    "distance": 4955.254078383452,
+    "cuisine": "Chinese"
   },
   {
-    "id": "QaolMEijS7L6eodSneOdng",
-    "alias": "tri-dim-shanghai-west-new-york-3",
-    "name": "Tri Dim Shanghai West",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/N-YlevGHM_fG7NI_5xRbzw/o.jpg",
+    "id": "p4xNh2NAy85Br77XaomFOw",
+    "alias": "oohu-new-york",
+    "name": "OOHU",
+    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/H-1YRNcl0ctmHyNjorSesA/o.jpg",
     "is_closed": false,
-    "url": "https://www.yelp.com/biz/tri-dim-shanghai-west-new-york-3?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 225,
+    "url": "https://www.yelp.com/biz/oohu-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 32,
     "categories": [
-      { "alias": "shanghainese", "title": "Shanghainese" },
       { "alias": "szechuan", "title": "Szechuan" },
-      { "alias": "dimsum", "title": "Dim Sum" }
+      { "alias": "cantonese", "title": "Cantonese" },
+      { "alias": "seafood", "title": "Seafood" }
     ],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.78412, "longitude": -73.97368 },
-    "transactions": ["pickup", "restaurant_reservation", "delivery"],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.751493955047785, "longitude": -73.9883517 },
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
-      "address1": "467 Columbus Ave",
+      "address1": "128 W 36th St",
       "address2": "",
       "address3": null,
       "city": "New York",
-      "zip_code": "10024",
+      "zip_code": "10018",
       "country": "US",
       "state": "NY",
-      "display_address": ["467 Columbus Ave", "New York, NY 10024"]
+      "display_address": ["128 W 36th St", "New York, NY 10018"]
     },
-    "phone": "+12125851398",
-    "display_phone": "(212) 585-1398",
-    "distance": 2688.936836316399
+    "phone": "+12125758899",
+    "display_phone": "(212) 575-8899",
+    "distance": 1276.2819746521077,
+    "cuisine": "Chinese"
   },
   {
-    "id": "oJ6fy4fBv_3WskxH4NfNBg",
-    "alias": "chef-huang-jian-bing-and-peking-duck-new-york",
-    "name": "Chef Huang Jian Bing & Peking Duck",
-    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/X0bnrN80tDyucd9bjWcTtA/o.jpg",
+    "id": "4FD0TAxe70nb3ngk3sXF9Q",
+    "alias": "uluh-new-york",
+    "name": "Uluh",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ebgBK2Y-BCVzwEZyDmhLsg/o.jpg",
     "is_closed": false,
-    "url": "https://www.yelp.com/biz/chef-huang-jian-bing-and-peking-duck-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 74,
-    "categories": [{ "alias": "cantonese", "title": "Cantonese" }],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.74531205210646, "longitude": -73.9757772 },
-    "transactions": ["pickup", "restaurant_reservation", "delivery"],
-    "location": {
-      "address1": "635 2nd Ave",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10016",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["635 2nd Ave", "New York, NY 10016"]
-    },
-    "phone": "+16469186065",
-    "display_phone": "(646) 918-6065",
-    "distance": 1672.9209589431255
-  },
-  {
-    "id": "0dDCDQz7DrKkSvu9h2hcQw",
-    "alias": "chow-house-new-york",
-    "name": "Chow House",
-    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/kzeClsI9_2tkHqKScotx1Q/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/chow-house-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 634,
+    "url": "https://www.yelp.com/biz/uluh-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 904,
     "categories": [
-      { "alias": "szechuan", "title": "Szechuan" },
-      { "alias": "noodles", "title": "Noodles" },
-      { "alias": "soup", "title": "Soup" }
+      { "alias": "tea", "title": "Tea Rooms" },
+      { "alias": "asianfusion", "title": "Asian Fusion" },
+      { "alias": "szechuan", "title": "Szechuan" }
     ],
     "rating": 4.5,
-    "coordinates": { "latitude": 40.72915, "longitude": -74.00072 },
-    "transactions": ["pickup", "restaurant_reservation", "delivery"],
-    "price": "$$",
+    "coordinates": { "latitude": 40.7293403, "longitude": -73.9866071 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$$",
     "location": {
-      "address1": "181 Bleecker St",
-      "address2": null,
+      "address1": "152 2nd Ave",
+      "address2": "Ste A",
       "address3": "",
       "city": "New York",
-      "zip_code": "10012",
+      "zip_code": "10003",
       "country": "US",
       "state": "NY",
-      "display_address": ["181 Bleecker St", "New York, NY 10012"]
+      "display_address": ["152 2nd Ave", "Ste A", "New York, NY 10003"]
     },
-    "phone": "+12128371021",
-    "display_phone": "(212) 837-1021",
-    "distance": 3928.8169129232433
+    "phone": "+19172615963",
+    "display_phone": "(917) 261-5963",
+    "distance": 3500.3658402898695,
+    "cuisine": "Chinese"
   },
   {
     "id": "-lgNzAEyFr8LCTuBTWnAMg",
@@ -486,7 +563,7 @@
       "latitude": 40.762765496672955,
       "longitude": -73.97609185077448
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "28 W 56th St",
@@ -500,38 +577,8 @@
     },
     "phone": "+16466093966",
     "display_phone": "(646) 609-3966",
-    "distance": 348.68974628233815
-  },
-  {
-    "id": "4FD0TAxe70nb3ngk3sXF9Q",
-    "alias": "uluh-new-york",
-    "name": "Uluh",
-    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ebgBK2Y-BCVzwEZyDmhLsg/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/uluh-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 903,
-    "categories": [
-      { "alias": "tea", "title": "Tea Rooms" },
-      { "alias": "asianfusion", "title": "Asian Fusion" },
-      { "alias": "szechuan", "title": "Szechuan" }
-    ],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.7293403, "longitude": -73.9866071 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$$",
-    "location": {
-      "address1": "152 2nd Ave",
-      "address2": "Ste A",
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10003",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["152 2nd Ave", "Ste A", "New York, NY 10003"]
-    },
-    "phone": "+19172615963",
-    "display_phone": "(917) 261-5963",
-    "distance": 3500.3658402898695
+    "distance": 348.68974628233815,
+    "cuisine": "Chinese"
   },
   {
     "id": "FXhSEZfIqjMZh4hR0_8jMQ",
@@ -547,7 +594,7 @@
       "latitude": 40.7582902125633,
       "longitude": -73.9925113993899
     },
-    "transactions": ["pickup", "restaurant_reservation", "delivery"],
+    "transactions": ["delivery", "restaurant_reservation", "pickup"],
     "price": "$$",
     "location": {
       "address1": "360 W 42nd Street",
@@ -561,34 +608,8 @@
     },
     "phone": "+12129676088",
     "display_phone": "(212) 967-6088",
-    "distance": 1199.3368442478525
-  },
-  {
-    "id": "jc7lVTvmYMIK5RNpENtS6w",
-    "alias": "szechuan-mountain-house-new-york-2",
-    "name": "Szechuan Mountain House",
-    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/VmRw8ZSq_dm_z-AiZuo_Yw/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/szechuan-mountain-house-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 667,
-    "categories": [{ "alias": "szechuan", "title": "Szechuan" }],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.72911, "longitude": -73.98858 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "23 St Marks Pl",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10003",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["23 St Marks Pl", "New York, NY 10003"]
-    },
-    "phone": "+19173883866",
-    "display_phone": "(917) 388-3866",
-    "distance": 3550.4406899367855
+    "distance": 1199.3368442478525,
+    "cuisine": "Chinese"
   },
   {
     "id": "6YehBdKHcLDsvaewhcEjFQ",
@@ -604,7 +625,7 @@
     ],
     "rating": 4.5,
     "coordinates": { "latitude": 40.747241, "longitude": -73.996441 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "251 W 26th St",
@@ -618,33 +639,36 @@
     },
     "phone": "+16469984196",
     "display_phone": "(646) 998-4196",
-    "distance": 2092.6211897994967
+    "distance": 2092.6211897994967,
+    "cuisine": "Chinese"
   },
   {
-    "id": "iXH9H75idkSB-Eudo5ABhg",
-    "alias": "tang-by-mr-sun-new-york",
-    "name": "Tang By Mr. Sun",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/qTVtuXOy6Poq72uFgNEI1w/o.jpg",
+    "id": "WVsPyl-DGRu0O_rQYdIMVQ",
+    "alias": "the-best-sichuan-new-york-6",
+    "name": "The Best Sichuan",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/HHeDCT6NAE6Ssk6R3gFBrQ/o.jpg",
     "is_closed": false,
-    "url": "https://www.yelp.com/biz/tang-by-mr-sun-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 19,
-    "categories": [{ "alias": "asianfusion", "title": "Asian Fusion" }],
+    "url": "https://www.yelp.com/biz/the-best-sichuan-new-york-6?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 125,
+    "categories": [{ "alias": "szechuan", "title": "Szechuan" }],
     "rating": 4.5,
-    "coordinates": { "latitude": 40.77614, "longitude": -73.95616 },
-    "transactions": ["restaurant_reservation"],
+    "coordinates": { "latitude": 40.75266, "longitude": -73.98459 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
     "location": {
-      "address1": "1442 3rd Ave",
-      "address2": null,
-      "address3": "",
+      "address1": "47 W 39th St",
+      "address2": "",
+      "address3": null,
       "city": "New York",
-      "zip_code": "10028",
+      "zip_code": "10018",
       "country": "US",
       "state": "NY",
-      "display_address": ["1442 3rd Ave", "New York, NY 10028"]
+      "display_address": ["47 W 39th St", "New York, NY 10018"]
     },
-    "phone": "+16465902910",
-    "display_phone": "(646) 590-2910",
-    "distance": 2581.958366535786
+    "phone": "+12128890980",
+    "display_phone": "(212) 889-0980",
+    "distance": 972.3799206494185,
+    "cuisine": "Chinese"
   },
   {
     "id": "sRWRA4dcN_NR1JGpuRVouA",
@@ -653,7 +677,7 @@
     "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/lmcpkjW6fo_uJqBnxxqk4w/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/nan-xiang-xiao-long-bao-manhattan-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 734,
+    "review_count": 735,
     "categories": [
       { "alias": "dimsum", "title": "Dim Sum" },
       { "alias": "desserts", "title": "Desserts" },
@@ -675,34 +699,66 @@
     },
     "phone": "+12129703888",
     "display_phone": "(212) 970-3888",
-    "distance": 1467.387113754276
+    "distance": 1467.387113754276,
+    "cuisine": "Chinese"
   },
   {
-    "id": "WVsPyl-DGRu0O_rQYdIMVQ",
-    "alias": "the-best-sichuan-new-york-6",
-    "name": "The Best Sichuan",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/HHeDCT6NAE6Ssk6R3gFBrQ/o.jpg",
+    "id": "iXH9H75idkSB-Eudo5ABhg",
+    "alias": "tang-by-mr-sun-new-york",
+    "name": "Tang By Mr. Sun",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/qTVtuXOy6Poq72uFgNEI1w/o.jpg",
     "is_closed": false,
-    "url": "https://www.yelp.com/biz/the-best-sichuan-new-york-6?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 125,
-    "categories": [{ "alias": "szechuan", "title": "Szechuan" }],
+    "url": "https://www.yelp.com/biz/tang-by-mr-sun-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 18,
+    "categories": [{ "alias": "asianfusion", "title": "Asian Fusion" }],
     "rating": 4.5,
-    "coordinates": { "latitude": 40.75266, "longitude": -73.98459 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
+    "coordinates": { "latitude": 40.77614, "longitude": -73.95616 },
+    "transactions": ["restaurant_reservation"],
     "location": {
-      "address1": "47 W 39th St",
-      "address2": "",
-      "address3": null,
+      "address1": "1442 3rd Ave",
+      "address2": null,
+      "address3": "",
       "city": "New York",
-      "zip_code": "10018",
+      "zip_code": "10028",
       "country": "US",
       "state": "NY",
-      "display_address": ["47 W 39th St", "New York, NY 10018"]
+      "display_address": ["1442 3rd Ave", "New York, NY 10028"]
     },
-    "phone": "+12128890980",
-    "display_phone": "(212) 889-0980",
-    "distance": 972.3799206494185
+    "phone": "+16465902910",
+    "display_phone": "(646) 590-2910",
+    "distance": 2581.958366535786,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "mUl0wtO7tPkBocuJqZ-7Dw",
+    "alias": "dun-huang-grand-central-new-york-4",
+    "name": "Dun Huang -  Grand Central",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/TmMr0NikR2kI8TXBHZ7qJw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/dun-huang-grand-central-new-york-4?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 327,
+    "categories": [
+      { "alias": "chinese", "title": "Chinese" },
+      { "alias": "noodles", "title": "Noodles" }
+    ],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.74922, "longitude": -73.97785 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "320 Lexington Ave",
+      "address2": null,
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10016",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["320 Lexington Ave", "New York, NY 10016"]
+    },
+    "phone": "+16469644007",
+    "display_phone": "(646) 964-4007",
+    "distance": 1216.9569903216795,
+    "cuisine": "Chinese"
   },
   {
     "id": "LT0yyLNM84EiJj9DL0rfHA",
@@ -719,7 +775,7 @@
     ],
     "rating": 4.5,
     "coordinates": { "latitude": 40.76701, "longitude": -73.95846 },
-    "transactions": ["pickup", "restaurant_reservation", "delivery"],
+    "transactions": ["delivery", "restaurant_reservation", "pickup"],
     "price": "$$",
     "location": {
       "address1": "314 E 70th St",
@@ -733,99 +789,8 @@
     },
     "phone": "+16468690339",
     "display_phone": "(646) 869-0339",
-    "distance": 1840.1312272535458
-  },
-  {
-    "id": "pCfGgX0WxGASGM4-Yhr2Pw",
-    "alias": "hao-noodle-chelsea-new-york-7",
-    "name": "Hao Noodle Chelsea",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/tSTY0-3T66V47xJXlWo6eg/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/hao-noodle-chelsea-new-york-7?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 623,
-    "categories": [
-      { "alias": "shanghainese", "title": "Shanghainese" },
-      { "alias": "dimsum", "title": "Dim Sum" },
-      { "alias": "szechuan", "title": "Szechuan" }
-    ],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.7406999, "longitude": -74.00436 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "343 W 14th St",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10014",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["343 W 14th St", "New York, NY 10014"]
-    },
-    "phone": "+16468820059",
-    "display_phone": "(646) 882-0059",
-    "distance": 3070.1860843407185
-  },
-  {
-    "id": "UK1oGbr8GU2rufpnJR4-HQ",
-    "alias": "joes-home-of-soup-dumplings-new-york",
-    "name": "Joe's Home of Soup Dumplings",
-    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/MdcCoAKlW3RTSSQInj-YcQ/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/joes-home-of-soup-dumplings-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 494,
-    "categories": [
-      { "alias": "shanghainese", "title": "Shanghainese" },
-      { "alias": "noodles", "title": "Noodles" }
-    ],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.75723, "longitude": -73.97702 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "7 E 48th St",
-      "address2": "between Fifth and Madison avenues",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10017",
-      "country": "US",
-      "state": "NY",
-      "display_address": [
-        "7 E 48th St",
-        "between Fifth and Madison avenues",
-        "New York, NY 10017"
-      ]
-    },
-    "phone": "+12123333868",
-    "display_phone": "(212) 333-3868",
-    "distance": 355.5171787228652
-  },
-  {
-    "id": "wDuf4Qz9qsC62amLZgWNJQ",
-    "alias": "little-alley-new-york",
-    "name": "Little Alley",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/YgboZ55f3R6cxa_gO7BVHQ/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/little-alley-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 534,
-    "categories": [{ "alias": "shanghainese", "title": "Shanghainese" }],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.74744, "longitude": -73.97728 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "550 3rd Ave",
-      "address2": null,
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10016",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["550 3rd Ave", "New York, NY 10016"]
-    },
-    "phone": "+16469983976",
-    "display_phone": "(646) 998-3976",
-    "distance": 1425.680172797434
+    "distance": 1840.1312272535458,
+    "cuisine": "Chinese"
   },
   {
     "id": "0vg2Z-HPwkyVVX613j2ysg",
@@ -845,7 +810,7 @@
       "latitude": 40.7711335538802,
       "longitude": -73.9620354269869
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "1016 Lexington Ave",
@@ -859,7 +824,165 @@
     },
     "phone": "+19293913950",
     "display_phone": "(929) 391-3950",
-    "distance": 1843.0372263467605
+    "distance": 1843.0372263467605,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "UK1oGbr8GU2rufpnJR4-HQ",
+    "alias": "joes-home-of-soup-dumplings-new-york",
+    "name": "Joe's Home of Soup Dumplings",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/MdcCoAKlW3RTSSQInj-YcQ/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/joes-home-of-soup-dumplings-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 494,
+    "categories": [
+      { "alias": "shanghainese", "title": "Shanghainese" },
+      { "alias": "noodles", "title": "Noodles" }
+    ],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.75723, "longitude": -73.97702 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "7 E 48th St",
+      "address2": "between Fifth and Madison avenues",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10017",
+      "country": "US",
+      "state": "NY",
+      "display_address": [
+        "7 E 48th St",
+        "between Fifth and Madison avenues",
+        "New York, NY 10017"
+      ]
+    },
+    "phone": "+12123333868",
+    "display_phone": "(212) 333-3868",
+    "distance": 355.5171787228652,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "pCfGgX0WxGASGM4-Yhr2Pw",
+    "alias": "hao-noodle-chelsea-new-york-7",
+    "name": "Hao Noodle Chelsea",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/tSTY0-3T66V47xJXlWo6eg/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/hao-noodle-chelsea-new-york-7?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 624,
+    "categories": [
+      { "alias": "shanghainese", "title": "Shanghainese" },
+      { "alias": "dimsum", "title": "Dim Sum" },
+      { "alias": "szechuan", "title": "Szechuan" }
+    ],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.7406999, "longitude": -74.00436 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "343 W 14th St",
+      "address2": "",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10014",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["343 W 14th St", "New York, NY 10014"]
+    },
+    "phone": "+16468820059",
+    "display_phone": "(646) 882-0059",
+    "distance": 3070.1860843407185,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "8ZBbl3VN-cu6PFOL0D7-8A",
+    "alias": "hunan-village-new-york",
+    "name": "Hunan Village",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/bmOOK2HpMaLtRuRYS8cpCw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/hunan-village-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 38,
+    "categories": [
+      { "alias": "szechuan", "title": "Szechuan" },
+      { "alias": "dimsum", "title": "Dim Sum" },
+      { "alias": "cantonese", "title": "Cantonese" }
+    ],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.749688, "longitude": -73.977171 },
+    "transactions": ["delivery", "pickup"],
+    "location": {
+      "address1": "339 Lexington Ave New York Ny",
+      "address2": null,
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10016",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["339 Lexington Ave New York Ny", "New York, NY 10016"]
+    },
+    "phone": "+16466924888",
+    "display_phone": "(646) 692-4888",
+    "distance": 1175.8812996124998,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "SYFLyQAFRFoDURRWafeLKA",
+    "alias": "lin-and-daughters-new-york",
+    "name": "Lin & Daughters",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/TS4dcHwLE9h9KSuVr_hjng/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/lin-and-daughters-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 61,
+    "categories": [
+      { "alias": "chinese", "title": "Chinese" },
+      { "alias": "noodles", "title": "Noodles" },
+      { "alias": "bubbletea", "title": "Bubble Tea" }
+    ],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.73253, "longitude": -74.00167 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "181 West 4th St",
+      "address2": null,
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10014",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["181 West 4th St", "New York, NY 10014"]
+    },
+    "phone": "+19176450229",
+    "display_phone": "(917) 645-0229",
+    "distance": 3645.9176237100964,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "oJ6fy4fBv_3WskxH4NfNBg",
+    "alias": "chef-huang-jian-bing-and-peking-duck-new-york",
+    "name": "Chef Huang Jian Bing & Peking Duck",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/X0bnrN80tDyucd9bjWcTtA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/chef-huang-jian-bing-and-peking-duck-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 75,
+    "categories": [{ "alias": "cantonese", "title": "Cantonese" }],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.74531205210646, "longitude": -73.9757772 },
+    "transactions": ["restaurant_reservation", "pickup"],
+    "location": {
+      "address1": "635 2nd Ave",
+      "address2": "",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10016",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["635 2nd Ave", "New York, NY 10016"]
+    },
+    "phone": "+16469186065",
+    "display_phone": "(646) 918-6065",
+    "distance": 1672.9209589431255,
+    "cuisine": "Chinese"
   },
   {
     "id": "uaFHoq-a5XqxF-bsOK9_Qg",
@@ -875,7 +998,7 @@
     ],
     "rating": 4.0,
     "coordinates": { "latitude": 40.7616286634162, "longitude": -73.98688 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "811 8th Ave",
@@ -889,7 +1012,8 @@
     },
     "phone": "+19173882555",
     "display_phone": "(917) 388-2555",
-    "distance": 723.0574011342844
+    "distance": 723.0574011342844,
+    "cuisine": "Chinese"
   },
   {
     "id": "gJXNSJ9VXTuCFmp_Kl9TVQ",
@@ -916,7 +1040,8 @@
     },
     "phone": "+12122888066",
     "display_phone": "(212) 288-8066",
-    "distance": 1917.304559842208
+    "distance": 1917.304559842208,
+    "cuisine": "Chinese"
   },
   {
     "id": "z5f--L8_vB_WvSaRca7LQQ",
@@ -936,7 +1061,7 @@
       "latitude": 40.73945005575927,
       "longitude": -73.98913809999999
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "22 E 21st St",
@@ -950,7 +1075,40 @@
     },
     "phone": "+16463867079",
     "display_phone": "(646) 386-7079",
-    "distance": 2476.733834593595
+    "distance": 2476.733834593595,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "TzhAlljC_843JO7UDDUIaQ",
+    "alias": "the-tang-upper-west-side-new-york",
+    "name": "The Tang - Upper West Side",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Ev1tfA47l90QTWYVqbf9LA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/the-tang-upper-west-side-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 306,
+    "categories": [
+      { "alias": "noodles", "title": "Noodles" },
+      { "alias": "szechuan", "title": "Szechuan" },
+      { "alias": "dimsum", "title": "Dim Sum" }
+    ],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.80006, "longitude": -73.96639 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "920 Amsterdam Ave",
+      "address2": null,
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10025",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["920 Amsterdam Ave", "New York, NY 10025"]
+    },
+    "phone": "+16465967970",
+    "display_phone": "(646) 596-7970",
+    "distance": 4538.220225016991,
+    "cuisine": "Chinese"
   },
   {
     "id": "1jAB_uaI8-P_wSqOo2S3KQ",
@@ -967,7 +1125,7 @@
     ],
     "rating": 4.5,
     "coordinates": { "latitude": 40.745234, "longitude": -73.97812 },
-    "transactions": ["pickup", "restaurant_reservation", "delivery"],
+    "transactions": ["delivery", "restaurant_reservation", "pickup"],
     "price": "$$",
     "location": {
       "address1": "495 3rd Ave",
@@ -981,7 +1139,8 @@
     },
     "phone": "+16466093388",
     "display_phone": "(646) 609-3388",
-    "distance": 1662.9303920540224
+    "distance": 1662.9303920540224,
+    "cuisine": "Chinese"
   },
   {
     "id": "pBNMZp_tKCAfRNx7-ybcHQ",
@@ -1001,7 +1160,7 @@
       "latitude": 40.74765439999999,
       "longitude": -74.00352547055276
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "461 W 23rd St",
@@ -1015,7 +1174,40 @@
     },
     "phone": "+12124144104",
     "display_phone": "(212) 414-4104",
-    "distance": 2528.6369818802164
+    "distance": 2528.6369818802164,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "C3tP0fNNAoxOAC3O406CXQ",
+    "alias": "le-sia-new-york-4",
+    "name": "Le Sia",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/PozwNIFXX8h3ZPN0ArYsBg/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/le-sia-new-york-4?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 139,
+    "categories": [
+      { "alias": "asianfusion", "title": "Asian Fusion" },
+      { "alias": "chinese", "title": "Chinese" },
+      { "alias": "cajun", "title": "Cajun/Creole" }
+    ],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.76072, "longitude": -73.99119 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$$",
+    "location": {
+      "address1": "651 9th Ave",
+      "address2": "",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10036",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["651 9th Ave", "New York, NY 10036"]
+    },
+    "phone": "+16465595220",
+    "display_phone": "(646) 559-5220",
+    "distance": 1078.1561438545616,
+    "cuisine": "Chinese"
   },
   {
     "id": "ICNwlgXTrvFrGvaScUp8Ew",
@@ -1032,7 +1224,7 @@
     ],
     "rating": 5.0,
     "coordinates": { "latitude": 40.73415, "longitude": -73.98633 },
-    "transactions": ["pickup", "restaurant_reservation", "delivery"],
+    "transactions": ["delivery", "restaurant_reservation", "pickup"],
     "location": {
       "address1": "155 3rd Ave",
       "address2": "",
@@ -1045,38 +1237,8 @@
     },
     "phone": "+16468223530",
     "display_phone": "(646) 822-3530",
-    "distance": 2965.652535054596
-  },
-  {
-    "id": "C3tP0fNNAoxOAC3O406CXQ",
-    "alias": "le-sia-new-york-4",
-    "name": "Le Sia",
-    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/PozwNIFXX8h3ZPN0ArYsBg/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/le-sia-new-york-4?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 138,
-    "categories": [
-      { "alias": "asianfusion", "title": "Asian Fusion" },
-      { "alias": "chinese", "title": "Chinese" },
-      { "alias": "cajun", "title": "Cajun/Creole" }
-    ],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.76072, "longitude": -73.99119 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$$",
-    "location": {
-      "address1": "651 9th Ave",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10036",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["651 9th Ave", "New York, NY 10036"]
-    },
-    "phone": "+16465595220",
-    "display_phone": "(646) 559-5220",
-    "distance": 1078.1561438545616
+    "distance": 2965.652535054596,
+    "cuisine": "Chinese"
   },
   {
     "id": "VbFYau70iG_s6UNFwYtGVQ",
@@ -1093,7 +1255,7 @@
     ],
     "rating": 4.0,
     "coordinates": { "latitude": 40.73589, "longitude": -73.9917 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$$",
     "location": {
       "address1": "15 Union Square W",
@@ -1107,7 +1269,40 @@
     },
     "phone": "+12129019971",
     "display_phone": "(212) 901-9971",
-    "distance": 2924.1978601248356
+    "distance": 2924.1978601248356,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "sfsjk1h50ooC2ioY7m48gw",
+    "alias": "pig-heaven-new-york-3",
+    "name": "Pig Heaven",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/YzHJPPxM5m6qp_vwfrC6SA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/pig-heaven-new-york-3?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 501,
+    "categories": [
+      { "alias": "bbq", "title": "Barbeque" },
+      { "alias": "szechuan", "title": "Szechuan" },
+      { "alias": "dimsum", "title": "Dim Sum" }
+    ],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.77544, "longitude": -73.95686 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "1420 3rd Ave",
+      "address2": "",
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10028",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["1420 3rd Ave", "New York, NY 10028"]
+    },
+    "phone": "+12127444333",
+    "display_phone": "(212) 744-4333",
+    "distance": 2489.5030051234776,
+    "cuisine": "Chinese"
   },
   {
     "id": "M-odQWSEfsR2mVEw7nKG-g",
@@ -1140,7 +1335,35 @@
     },
     "phone": "+12123343669",
     "display_phone": "(212) 334-3669",
-    "distance": 4829.812464098136
+    "distance": 4829.812464098136,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "HR_a2QSA_KJZIakufAJUmg",
+    "alias": "szechuan-gourmet-new-york-13",
+    "name": "Szechuan Gourmet",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Nr4eeyh5SOWTjZ2kBXcmvg/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/szechuan-gourmet-new-york-13?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 65,
+    "categories": [{ "alias": "szechuan", "title": "Szechuan" }],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.752347, "longitude": -73.983559 },
+    "transactions": ["delivery", "pickup"],
+    "location": {
+      "address1": "21 W 39th St",
+      "address2": "",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10018",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["21 W 39th St", "New York, NY 10018"]
+    },
+    "phone": "+12129210233",
+    "display_phone": "(212) 921-0233",
+    "distance": 973.1123397949871,
+    "cuisine": "Chinese"
   },
   {
     "id": "gcEMZjjqy5Ucnv_5Pv-q1g",
@@ -1156,7 +1379,7 @@
     ],
     "rating": 4.0,
     "coordinates": { "latitude": 40.760537, "longitude": -73.990782 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "648 9th Ave",
@@ -1170,33 +1393,71 @@
     },
     "phone": "+19173882351",
     "display_phone": "(917) 388-2351",
-    "distance": 1035.0299109359232
+    "distance": 1035.0299109359232,
+    "cuisine": "Chinese"
   },
   {
-    "id": "gNGxh97n0NZgYG1Q_no9Kg",
-    "alias": "potluck-club-new-york-2",
-    "name": "Potluck Club",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/QbhMWgf2hTjoPjBcjMc_eA/o.jpg",
+    "id": "Puyzn1gagH9TsJz7EBJs3g",
+    "alias": "baji-baji-new-york",
+    "name": "Baji Baji",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/x6skz4gZQVq5ei9kUwPUJg/o.jpg",
     "is_closed": false,
-    "url": "https://www.yelp.com/biz/potluck-club-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 238,
+    "url": "https://www.yelp.com/biz/baji-baji-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 67,
     "categories": [{ "alias": "chinese", "title": "Chinese" }],
     "rating": 4.5,
-    "coordinates": { "latitude": 40.71952, "longitude": -73.99333 },
-    "transactions": ["pickup", "delivery"],
+    "coordinates": {
+      "latitude": 40.72821421354205,
+      "longitude": -73.98516918819301
+    },
+    "transactions": ["delivery", "pickup"],
     "location": {
-      "address1": "133 Chrystie St",
+      "address1": "145 1st Ave",
       "address2": null,
       "address3": "",
       "city": "New York",
-      "zip_code": "10002",
+      "zip_code": "10003",
       "country": "US",
       "state": "NY",
-      "display_address": ["133 Chrystie St", "New York, NY 10002"]
+      "display_address": ["145 1st Ave", "New York, NY 10003"]
     },
-    "phone": "",
-    "display_phone": "",
-    "distance": 4691.521432033729
+    "phone": "+12127773888",
+    "display_phone": "(212) 777-3888",
+    "distance": 3602.3897573000936,
+    "cuisine": "Chinese"
+  },
+  {
+    "id": "a93NwZxjkPQydJxR42oPyg",
+    "alias": "grain-house-new-york-2",
+    "name": "Grain House",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/-_OQR9v9ucrb0KooLELC_Q/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/grain-house-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 136,
+    "categories": [
+      { "alias": "noodles", "title": "Noodles" },
+      { "alias": "szechuan", "title": "Szechuan" }
+    ],
+    "rating": 3.5,
+    "coordinates": {
+      "latitude": 40.800127673827,
+      "longitude": -73.9657538384199
+    },
+    "transactions": ["delivery", "pickup"],
+    "location": {
+      "address1": "929 Amsterdam Ave",
+      "address2": "",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10025",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["929 Amsterdam Ave", "New York, NY 10025"]
+    },
+    "phone": "+12125311130",
+    "display_phone": "(212) 531-1130",
+    "distance": 4566.017424574321,
+    "cuisine": "Chinese"
   },
   {
     "id": "oe8GEFE4QLFAKt87y7zcgA",
@@ -1205,7 +1466,7 @@
     "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/gRqfWsSDep7gFKGE4lChBQ/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/very-fresh-noodles-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1458,
+    "review_count": 1459,
     "categories": [
       { "alias": "taiwanese", "title": "Taiwanese" },
       { "alias": "chinese", "title": "Chinese" },
@@ -1213,7 +1474,7 @@
     ],
     "rating": 4.5,
     "coordinates": { "latitude": 40.74207, "longitude": -74.00565 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "409 W 15th St",
@@ -1227,7 +1488,8 @@
     },
     "phone": "+13322156161",
     "display_phone": "(332) 215-6161",
-    "distance": 3049.2994710005573
+    "distance": 3049.2994710005573,
+    "cuisine": "Chinese"
   },
   {
     "id": "A-ert0jDRBfku9ogyW_mEg",
@@ -1236,7 +1498,7 @@
     "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ooBprHe-wyNb1dwvd1qhOA/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/spice-symphony-new-york-3?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 653,
+    "review_count": 654,
     "categories": [
       { "alias": "chinese", "title": "Chinese" },
       { "alias": "indpak", "title": "Indian" },
@@ -1247,7 +1509,7 @@
       "latitude": 40.7558937072754,
       "longitude": -73.9715347290039
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "150 E 50th St",
@@ -1261,7 +1523,8 @@
     },
     "phone": "+12123004869",
     "display_phone": "(212) 300-4869",
-    "distance": 755.21739977009
+    "distance": 755.21739977009,
+    "cuisine": "Chinese"
   },
   {
     "id": "UaQF4mv6hVjiegkwUvQeMQ",
@@ -1277,7 +1540,7 @@
     ],
     "rating": 4.5,
     "coordinates": { "latitude": 40.744624, "longitude": -73.998649 },
-    "transactions": ["pickup", "restaurant_reservation", "delivery"],
+    "transactions": ["delivery", "restaurant_reservation", "pickup"],
     "price": "$$",
     "location": {
       "address1": "236 8th Ave",
@@ -1291,212 +1554,8 @@
     },
     "phone": "+12126450100",
     "display_phone": "(212) 645-0100",
-    "distance": 2426.1018360814505
-  },
-  {
-    "id": "sBCJYLPNJuagg-aJ3Y_ozQ",
-    "alias": "cheli-new-york-6",
-    "name": "Cheli",
-    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/qaeKZswu1pdHO49tiB92GA/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/cheli-new-york-6?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 325,
-    "categories": [{ "alias": "shanghainese", "title": "Shanghainese" }],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.72925, "longitude": -73.9886 },
-    "transactions": ["pickup", "delivery"],
-    "location": {
-      "address1": "19 St Marks Pl",
-      "address2": "Ste 23",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10003",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["19 St Marks Pl", "Ste 23", "New York, NY 10003"]
-    },
-    "phone": "+16468581866",
-    "display_phone": "(646) 858-1866",
-    "distance": 3555.7559567497888
-  },
-  {
-    "id": "lSuyHj3cCXbKjcZaakF9lQ",
-    "alias": "dimsum-garden-new-york-2",
-    "name": "Dimsum Garden",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/nmYqy1d1iTgZAMAYZ_HX_A/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/dimsum-garden-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 20,
-    "categories": [{ "alias": "dimsum", "title": "Dim Sum" }],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.758701, "longitude": -73.965463 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "1068 2nd Ave",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10022",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["1068 2nd Ave", "New York, NY 10022"]
-    },
-    "phone": "",
-    "display_phone": "",
-    "distance": 1112.6646845093856
-  },
-  {
-    "id": "SNhDVaf_n7VDZcfry8mYdA",
-    "alias": "the-bao-new-york",
-    "name": "The Bao",
-    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ejYH0r4a-37Q54mqOYHAUQ/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/the-bao-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1423,
-    "categories": [
-      { "alias": "shanghainese", "title": "Shanghainese" },
-      { "alias": "dimsum", "title": "Dim Sum" },
-      { "alias": "seafood", "title": "Seafood" }
-    ],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.72939, "longitude": -73.9889199 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "13 St Marks Pl",
-      "address2": "",
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10003",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["13 St Marks Pl", "New York, NY 10003"]
-    },
-    "phone": "+12123889238",
-    "display_phone": "(212) 388-9238",
-    "distance": 3541.6158723131016
-  },
-  {
-    "id": "iM2DKMjyU_R1r8x-3AZGQg",
-    "alias": "new-cottage-new-york-2",
-    "name": "New Cottage",
-    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/0CmwE4qcQg1oYAauqFP8WQ/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/new-cottage-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 83,
-    "categories": [
-      { "alias": "cantonese", "title": "Cantonese" },
-      { "alias": "szechuan", "title": "Szechuan" }
-    ],
-    "rating": 4.0,
-    "coordinates": {
-      "latitude": 40.78326357630784,
-      "longitude": -73.98078454782609
-    },
-    "transactions": [],
-    "price": "$$",
-    "location": {
-      "address1": "2199 Broadway",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10024",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["2199 Broadway", "New York, NY 10024"]
-    },
-    "phone": "+12125957450",
-    "display_phone": "(212) 595-7450",
-    "distance": 2570.099838239156
-  },
-  {
-    "id": "cG9yhk_wkMm7XwR2HcHmrQ",
-    "alias": "hidden-leaf-new-york",
-    "name": "Hidden Leaf",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/mPF52zll29JbQjU722_tjw/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/hidden-leaf-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 77,
-    "categories": [
-      { "alias": "bars", "title": "Bars" },
-      { "alias": "dimsum", "title": "Dim Sum" }
-    ],
-    "rating": 4.5,
-    "coordinates": {
-      "latitude": 40.75286450667627,
-      "longitude": -73.9982738730148
-    },
-    "transactions": ["pickup", "delivery"],
-    "location": {
-      "address1": "75 Manhattan W Plz",
-      "address2": "",
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10001",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["75 Manhattan W Plz", "New York, NY 10001"]
-    },
-    "phone": "+19179052782",
-    "display_phone": "(917) 905-2782",
-    "distance": 1855.2419021642072
-  },
-  {
-    "id": "LVkBYW-FNaZ2h-0zB8-vzA",
-    "alias": "jiangs-kitchen-new-york",
-    "name": "Jiang's Kitchen",
-    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/LW4yXem-qACinRMI_fEfvA/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/jiangs-kitchen-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 70,
-    "categories": [{ "alias": "chinese", "title": "Chinese" }],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.72808, "longitude": -73.98615 },
-    "transactions": ["pickup", "delivery"],
-    "location": {
-      "address1": "65 St Marks Pl",
-      "address2": null,
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10003",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["65 St Marks Pl", "New York, NY 10003"]
-    },
-    "phone": "+16463987722",
-    "display_phone": "(646) 398-7722",
-    "distance": 3617.6814276659206
-  },
-  {
-    "id": "mUl0wtO7tPkBocuJqZ-7Dw",
-    "alias": "dun-huang-grand-central-new-york-4",
-    "name": "Dun Huang -  Grand Central",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/TmMr0NikR2kI8TXBHZ7qJw/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/dun-huang-grand-central-new-york-4?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 327,
-    "categories": [
-      { "alias": "chinese", "title": "Chinese" },
-      { "alias": "noodles", "title": "Noodles" }
-    ],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.74922, "longitude": -73.97785 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "320 Lexington Ave",
-      "address2": null,
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10016",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["320 Lexington Ave", "New York, NY 10016"]
-    },
-    "phone": "+16469644007",
-    "display_phone": "(646) 964-4007",
-    "distance": 1216.9569903216795
+    "distance": 2426.1018360814505,
+    "cuisine": "Chinese"
   },
   {
     "id": "Xjswj531-FkRZPpcccU6kQ",
@@ -1530,7 +1589,8 @@
     },
     "phone": "+16466570565",
     "display_phone": "(646) 657-0565",
-    "distance": 648.8994329891642
+    "distance": 648.8994329891642,
+    "cuisine": "Mexican"
   },
   {
     "id": "6Ct7OeTRn4caY9g0swFBsw",
@@ -1539,7 +1599,7 @@
     "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/FwZAyPgdKdPGQ8aAGKh3-w/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/la-contenta-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 913,
+    "review_count": 914,
     "categories": [
       { "alias": "mexican", "title": "Mexican" },
       { "alias": "bars", "title": "Bars" },
@@ -1547,7 +1607,7 @@
     ],
     "rating": 4.5,
     "coordinates": { "latitude": 40.71873, "longitude": -73.98691 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "102 Norfolk St",
@@ -1561,7 +1621,8 @@
     },
     "phone": "+12124324180",
     "display_phone": "(212) 432-4180",
-    "distance": 4661.243058751872
+    "distance": 4661.243058751872,
+    "cuisine": "Mexican"
   },
   {
     "id": "Wx6lMnEh7dCmX-9PQF1Ifw",
@@ -1574,7 +1635,7 @@
     "categories": [{ "alias": "mexican", "title": "Mexican" }],
     "rating": 4.0,
     "coordinates": { "latitude": 40.762227, "longitude": -73.9856178382696 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$$",
     "location": {
       "address1": "251 West 50th St",
@@ -1588,7 +1649,8 @@
     },
     "phone": "+12125811818",
     "display_phone": "(212) 581-1818",
-    "distance": 639.8465280145972
+    "distance": 639.8465280145972,
+    "cuisine": "Mexican"
   },
   {
     "id": "MaoCNdHni6MLjM9iYQqHcg",
@@ -1605,7 +1667,7 @@
     ],
     "rating": 4.5,
     "coordinates": { "latitude": 40.75667, "longitude": -73.969168 },
-    "transactions": ["restaurant_reservation", "pickup", "delivery"],
+    "transactions": ["pickup", "delivery", "restaurant_reservation"],
     "price": "$$$",
     "location": {
       "address1": "214 E 52nd St",
@@ -1619,7 +1681,8 @@
     },
     "phone": "+12126885200",
     "display_phone": "(212) 688-5200",
-    "distance": 879.8566314720069
+    "distance": 879.8566314720069,
+    "cuisine": "Mexican"
   },
   {
     "id": "7bD22UAtH56ikWYslOSIQg",
@@ -1636,7 +1699,7 @@
     ],
     "rating": 4.0,
     "coordinates": { "latitude": 40.77259, "longitude": -73.95588 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "1491 2nd Ave",
@@ -1650,7 +1713,8 @@
     },
     "phone": "+13479675955",
     "display_phone": "(347) 967-5955",
-    "distance": 2349.926469716569
+    "distance": 2349.926469716569,
+    "cuisine": "Mexican"
   },
   {
     "id": "tvqtAjAyc7dplVVwhw3VZQ",
@@ -1667,7 +1731,7 @@
     ],
     "rating": 4.5,
     "coordinates": { "latitude": 40.7352, "longitude": -73.99808 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "78 W 11th St",
@@ -1681,7 +1745,8 @@
     },
     "phone": "+12125332233",
     "display_phone": "(212) 533-2233",
-    "distance": 3237.4760740862134
+    "distance": 3237.4760740862134,
+    "cuisine": "Mexican"
   },
   {
     "id": "PqqnNrUtU7XTKQvUM4cyqQ",
@@ -1701,7 +1766,7 @@
       "latitude": 40.7260849061034,
       "longitude": -73.9897361397743
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "65 2nd Ave",
@@ -1715,7 +1780,8 @@
     },
     "phone": "+12127776965",
     "display_phone": "(212) 777-6965",
-    "distance": 3911.344763787452
+    "distance": 3911.344763787452,
+    "cuisine": "Mexican"
   },
   {
     "id": "ihzI-4yGesoQuAoIocao8g",
@@ -1732,7 +1798,7 @@
     ],
     "rating": 4.0,
     "coordinates": { "latitude": 40.76545, "longitude": -73.98729 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "802 9th Ave",
@@ -1746,7 +1812,8 @@
     },
     "phone": "+12122454500",
     "display_phone": "(212) 245-4500",
-    "distance": 935.2070407676571
+    "distance": 935.2070407676571,
+    "cuisine": "Mexican"
   },
   {
     "id": "L3REPLCvQpMapYPd_fkS-A",
@@ -1762,7 +1829,7 @@
     ],
     "rating": 4.5,
     "coordinates": { "latitude": 40.74207, "longitude": -74.00565 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "409 W 15th St",
@@ -1776,7 +1843,8 @@
     },
     "phone": "+12129204986",
     "display_phone": "(212) 920-4986",
-    "distance": 3049.2994710005573
+    "distance": 3049.2994710005573,
+    "cuisine": "Mexican"
   },
   {
     "id": "DFRpXRHjOHBxYHiuvwaEQQ",
@@ -1789,7 +1857,7 @@
     "categories": [{ "alias": "mexican", "title": "Mexican" }],
     "rating": 3.5,
     "coordinates": { "latitude": 40.77115637915222, "longitude": -73.9831131 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "61 Columbus Ave",
@@ -1803,7 +1871,8 @@
     },
     "phone": "+12129777700",
     "display_phone": "(212) 977-7700",
-    "distance": 1277.1492519813978
+    "distance": 1277.1492519813978,
+    "cuisine": "Mexican"
   },
   {
     "id": "kn9rgR4KlvyTTi-s76OIaQ",
@@ -1819,7 +1888,7 @@
     ],
     "rating": 4.0,
     "coordinates": { "latitude": 40.776483, "longitude": -73.956708 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$$",
     "location": {
       "address1": "166 E 82nd St",
@@ -1833,7 +1902,8 @@
     },
     "phone": "+12128614505",
     "display_phone": "(212) 861-4505",
-    "distance": 2576.8703773584866
+    "distance": 2576.8703773584866,
+    "cuisine": "Mexican"
   },
   {
     "id": "xWLSJOiN1mMRHmBmHyjAfw",
@@ -1846,7 +1916,7 @@
     "categories": [{ "alias": "mexican", "title": "Mexican" }],
     "rating": 4.0,
     "coordinates": { "latitude": 40.75081210000001, "longitude": -73.9819335 },
-    "transactions": ["restaurant_reservation", "pickup", "delivery"],
+    "transactions": ["pickup", "delivery", "restaurant_reservation"],
     "price": "$$",
     "location": {
       "address1": "5 E 38th St",
@@ -1860,7 +1930,8 @@
     },
     "phone": "+16469985722",
     "display_phone": "(646) 998-5722",
-    "distance": 1084.7963720568873
+    "distance": 1084.7963720568873,
+    "cuisine": "Mexican"
   },
   {
     "id": "sTu5z5HUcIYykg97HHj8xA",
@@ -1890,7 +1961,38 @@
     },
     "phone": "+19174091171",
     "display_phone": "(917) 409-1171",
-    "distance": 952.7855207932628
+    "distance": 952.7855207932628,
+    "cuisine": "Mexican"
+  },
+  {
+    "id": "5h-vvkZE_HBftyKxhhSyDA",
+    "alias": "cascalote-new-york",
+    "name": "Cascalote",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/GJnyRX3dZ-hW9HN6wUBdEw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/cascalote-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 12,
+    "categories": [
+      { "alias": "mexican", "title": "Mexican" },
+      { "alias": "latin", "title": "Latin American" }
+    ],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.7795585733509, "longitude": -73.9501952 },
+    "transactions": ["delivery", "pickup"],
+    "location": {
+      "address1": "1712 2nd Ave",
+      "address2": null,
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10128",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["1712 2nd Ave", "New York, NY 10128"]
+    },
+    "phone": "+19172658577",
+    "display_phone": "(917) 265-8577",
+    "distance": 3210.6324247095304,
+    "cuisine": "Mexican"
   },
   {
     "id": "WZynqsGjqQLc_T8R80_-7g",
@@ -1903,7 +2005,7 @@
     "categories": [{ "alias": "tex-mex", "title": "Tex-Mex" }],
     "rating": 4.5,
     "coordinates": { "latitude": 40.732575, "longitude": -73.98806909999999 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "location": {
       "address1": "102 3rd Ave",
       "address2": "",
@@ -1916,7 +2018,40 @@
     },
     "phone": "+12125298880",
     "display_phone": "(212) 529-8880",
-    "distance": 3177.3658907704717
+    "distance": 3177.3658907704717,
+    "cuisine": "Mexican"
+  },
+  {
+    "id": "WyiTT3VHjzowMnOnUpZ7TQ",
+    "alias": "empell\u00f3n-new-york-3",
+    "name": "Empell\u00f3n",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/MiInYFJPie-YA8kjN1z-gw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/empell%C3%B3n-new-york-3?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 437,
+    "categories": [
+      { "alias": "mexican", "title": "Mexican" },
+      { "alias": "cocktailbars", "title": "Cocktail Bars" },
+      { "alias": "desserts", "title": "Desserts" }
+    ],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.75972, "longitude": -73.97472 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$$",
+    "location": {
+      "address1": "510 Madison Ave",
+      "address2": null,
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10022",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["510 Madison Ave", "New York, NY 10022"]
+    },
+    "phone": "+12123801215",
+    "display_phone": "(212) 380-1215",
+    "distance": 323.1208244812309,
+    "cuisine": "Mexican"
   },
   {
     "id": "9_CEU7Wmvmwlyvqr-PJD6w",
@@ -1932,7 +2067,7 @@
     ],
     "rating": 4.0,
     "coordinates": { "latitude": 40.73391, "longitude": -74.00242 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "113 7th Ave S",
@@ -1946,7 +2081,8 @@
     },
     "phone": "+12129242305",
     "display_phone": "(212) 924-2305",
-    "distance": 3547.395791676911
+    "distance": 3547.395791676911,
+    "cuisine": "Mexican"
   },
   {
     "id": "Ahx8GsuAGUl8TgqCWP7uXw",
@@ -1966,7 +2102,7 @@
       "latitude": 40.7434133400872,
       "longitude": -73.9996277220286
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "198 8th Ave",
@@ -1980,7 +2116,8 @@
     },
     "phone": "+12126452100",
     "display_phone": "(212) 645-2100",
-    "distance": 2580.2223077145313
+    "distance": 2580.2223077145313,
+    "cuisine": "Mexican"
   },
   {
     "id": "7ERwg_4Kiaq1ezKTSSv7pg",
@@ -1993,7 +2130,7 @@
     "categories": [{ "alias": "mexican", "title": "Mexican" }],
     "rating": 4.5,
     "coordinates": { "latitude": 40.793, "longitude": -73.97214 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "210 W 94th St",
@@ -2007,7 +2144,8 @@
     },
     "phone": "+19176757727",
     "display_phone": "(917) 675-7727",
-    "distance": 3676.6787748335178
+    "distance": 3676.6787748335178,
+    "cuisine": "Mexican"
   },
   {
     "id": "PAJdNrD4HFBN16OAFeDx4A",
@@ -2034,36 +2172,8 @@
     },
     "phone": "+12125811235",
     "display_phone": "(212) 581-1235",
-    "distance": 1062.2165854519526
-  },
-  {
-    "id": "5h-vvkZE_HBftyKxhhSyDA",
-    "alias": "cascalote-new-york",
-    "name": "Cascalote",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/GJnyRX3dZ-hW9HN6wUBdEw/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/cascalote-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 12,
-    "categories": [
-      { "alias": "mexican", "title": "Mexican" },
-      { "alias": "latin", "title": "Latin American" }
-    ],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.7795585733509, "longitude": -73.9501952 },
-    "transactions": ["pickup", "delivery"],
-    "location": {
-      "address1": "1712 2nd Ave",
-      "address2": null,
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10128",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["1712 2nd Ave", "New York, NY 10128"]
-    },
-    "phone": "+19172658577",
-    "display_phone": "(917) 265-8577",
-    "distance": 3210.6324247095304
+    "distance": 1062.2165854519526,
+    "cuisine": "Mexican"
   },
   {
     "id": "9aJ1MVTthZw3QjqoG7mPjg",
@@ -2072,14 +2182,14 @@
     "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/C9A5CTge_V6psfuOq04txw/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/rosies-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 898,
+    "review_count": 899,
     "categories": [{ "alias": "mexican", "title": "Mexican" }],
     "rating": 4.0,
     "coordinates": {
       "latitude": 40.72493398880827,
       "longitude": -73.99062355504286
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "29 E 2nd St",
@@ -2093,7 +2203,8 @@
     },
     "phone": "+12123350114",
     "display_phone": "(212) 335-0114",
-    "distance": 4053.8246609093817
+    "distance": 4053.8246609093817,
+    "cuisine": "Mexican"
   },
   {
     "id": "twQFM-8T_Y4yYIqeEPk4XQ",
@@ -2109,7 +2220,7 @@
       "latitude": 40.718705771624705,
       "longitude": -74.00606353625375
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "location": {
       "address1": "114 Franklin St",
       "address2": "",
@@ -2122,7 +2233,8 @@
     },
     "phone": "+19175405500",
     "display_phone": "(917) 540-5500",
-    "distance": 5166.860647828371
+    "distance": 5166.860647828371,
+    "cuisine": "Mexican"
   },
   {
     "id": "KDpFAWkLofuabBSpnNJY5A",
@@ -2138,7 +2250,7 @@
       "latitude": 40.75797140479767,
       "longitude": -73.98387478465575
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "134 W 46th St",
@@ -2152,7 +2264,39 @@
     },
     "phone": "+19172615650",
     "display_phone": "(917) 261-5650",
-    "distance": 516.8544885080671
+    "distance": 516.8544885080671,
+    "cuisine": "Mexican"
+  },
+  {
+    "id": "dYWjNK07igws9jFNgQmhng",
+    "alias": "rosa-mexicano-new-york-3",
+    "name": "Rosa Mexicano",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/plS7hoISQe1qsITl1hP7TA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/rosa-mexicano-new-york-3?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 1703,
+    "categories": [{ "alias": "mexican", "title": "Mexican" }],
+    "rating": 3.5,
+    "coordinates": {
+      "latitude": 40.738306632767085,
+      "longitude": -73.99081456881349
+    },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "9 E 18th St",
+      "address2": "",
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10003",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["9 E 18th St", "New York, NY 10003"]
+    },
+    "phone": "+12125333350",
+    "display_phone": "(212) 533-3350",
+    "distance": 2647.7470871388173,
+    "cuisine": "Mexican"
   },
   {
     "id": "a2BkT6uUKDpzhLalkksJsg",
@@ -2168,7 +2312,7 @@
       "latitude": 40.768036983514506,
       "longitude": -73.96119122060036
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "202 E 70th St",
@@ -2182,7 +2326,8 @@
     },
     "phone": "+16467264302",
     "display_phone": "(646) 726-4302",
-    "distance": 1697.5239011406243
+    "distance": 1697.5239011406243,
+    "cuisine": "Mexican"
   },
   {
     "id": "vyKBwzRdNX4yiJDIFv37iw",
@@ -2209,67 +2354,8 @@
     },
     "phone": "+16466884180",
     "display_phone": "(646) 688-4180",
-    "distance": 3896.274678969537
-  },
-  {
-    "id": "dYWjNK07igws9jFNgQmhng",
-    "alias": "rosa-mexicano-new-york-3",
-    "name": "Rosa Mexicano",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/plS7hoISQe1qsITl1hP7TA/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/rosa-mexicano-new-york-3?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1701,
-    "categories": [{ "alias": "mexican", "title": "Mexican" }],
-    "rating": 3.5,
-    "coordinates": {
-      "latitude": 40.738306632767085,
-      "longitude": -73.99081456881349
-    },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "9 E 18th St",
-      "address2": "",
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10003",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["9 E 18th St", "New York, NY 10003"]
-    },
-    "phone": "+12125333350",
-    "display_phone": "(212) 533-3350",
-    "distance": 2647.7470871388173
-  },
-  {
-    "id": "dgaNriM1VdI2nGochhHE_g",
-    "alias": "casa-enrique-long-island-city",
-    "name": "Casa Enrique",
-    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/gR2Urh_9e7bTvVf3W7acog/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/casa-enrique-long-island-city?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1512,
-    "categories": [{ "alias": "mexican", "title": "Mexican" }],
-    "rating": 4.0,
-    "coordinates": {
-      "latitude": 40.743404338358,
-      "longitude": -73.954350367693
-    },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "5-48 49th Ave",
-      "address2": "",
-      "address3": "",
-      "city": "Long Island City",
-      "zip_code": "11101",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["5-48 49th Ave", "Long Island City, NY 11101"]
-    },
-    "phone": "+13474486040",
-    "display_phone": "(347) 448-6040",
-    "distance": 2762.6733525367663
+    "distance": 3896.274678969537,
+    "cuisine": "Mexican"
   },
   {
     "id": "ub2VfE7SRLJABAClzGZp3A",
@@ -2278,14 +2364,14 @@
     "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/VeoVUggoHbw8RV_Yo4xlig/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/tacombi-new-york-17?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 796,
+    "review_count": 795,
     "categories": [{ "alias": "mexican", "title": "Mexican" }],
     "rating": 4.0,
     "coordinates": {
       "latitude": 40.74294199970279,
       "longitude": -73.99112692780066
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "30 W 24th St",
@@ -2299,41 +2385,8 @@
     },
     "phone": "+12122423491",
     "display_phone": "(212) 242-3491",
-    "distance": 2195.489993372732
-  },
-  {
-    "id": "UH_aksIxzGPPyhWZJbTP7A",
-    "alias": "cantina-taqueria-and-tequila-bar-new-york",
-    "name": "Cantina Taqueria & Tequila Bar",
-    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/fA4EacbkL8yx2YXTg_JnKg/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/cantina-taqueria-and-tequila-bar-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 573,
-    "categories": [
-      { "alias": "mexican", "title": "Mexican" },
-      { "alias": "latin", "title": "Latin American" },
-      { "alias": "cocktailbars", "title": "Cocktail Bars" }
-    ],
-    "rating": 4.0,
-    "coordinates": {
-      "latitude": 40.75771715349455,
-      "longitude": -73.98574138301436
-    },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "1838 7th Ave",
-      "address2": null,
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10026",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["1838 7th Ave", "New York, NY 10026"]
-    },
-    "phone": "+19292632110",
-    "display_phone": "(929) 263-2110",
-    "distance": 670.1443747976782
+    "distance": 2195.489993372732,
+    "cuisine": "Mexican"
   },
   {
     "id": "SULHf6nGQ8sK0UpG1XU30w",
@@ -2360,7 +2413,8 @@
     },
     "phone": "+12125744696",
     "display_phone": "(212) 574-4696",
-    "distance": 836.9412540165148
+    "distance": 836.9412540165148,
+    "cuisine": "Mexican"
   },
   {
     "id": "RUsot7ERPbYA_wOKMlVpAQ",
@@ -2379,7 +2433,7 @@
       "latitude": 40.7606700654272,
       "longitude": -73.97805009037256
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "location": {
       "address1": "31 W 52nd St",
       "address2": "",
@@ -2392,7 +2446,8 @@
     },
     "phone": "+16463604001",
     "display_phone": "(646) 360-4001",
-    "distance": 63.24310495371436
+    "distance": 63.24310495371436,
+    "cuisine": "Mexican"
   },
   {
     "id": "0W0m68TNPbodGCA3PhIB4w",
@@ -2409,7 +2464,7 @@
     ],
     "rating": 4.0,
     "coordinates": { "latitude": 40.72578, "longitude": -73.98952 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "60 2nd Ave",
@@ -2423,155 +2478,43 @@
     },
     "phone": "+12125980300",
     "display_phone": "(212) 598-0300",
-    "distance": 3939.502164896937
+    "distance": 3939.502164896937,
+    "cuisine": "Mexican"
   },
   {
-    "id": "TgoYhgbPCYhLBNtpue3QHg",
-    "alias": "maya-new-york",
-    "name": "Maya",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/kWwazFLapTXYMFUSSGbiUQ/o.jpg",
+    "id": "UH_aksIxzGPPyhWZJbTP7A",
+    "alias": "cantina-taqueria-and-tequila-bar-new-york",
+    "name": "Cantina Taqueria & Tequila Bar",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/fA4EacbkL8yx2YXTg_JnKg/o.jpg",
     "is_closed": false,
-    "url": "https://www.yelp.com/biz/maya-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1091,
-    "categories": [{ "alias": "mexican", "title": "Mexican" }],
-    "rating": 3.5,
-    "coordinates": {
-      "latitude": 40.7632055528185,
-      "longitude": -73.9596225112209
-    },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$$",
-    "location": {
-      "address1": "1191 1st Ave",
-      "address2": "",
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10065",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["1191 1st Ave", "New York, NY 10065"]
-    },
-    "phone": "+12125851818",
-    "display_phone": "(212) 585-1818",
-    "distance": 1624.343630452827
-  },
-  {
-    "id": "WyiTT3VHjzowMnOnUpZ7TQ",
-    "alias": "empell\u00f3n-new-york-3",
-    "name": "Empell\u00f3n",
-    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/MiInYFJPie-YA8kjN1z-gw/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/empell%C3%B3n-new-york-3?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 437,
+    "url": "https://www.yelp.com/biz/cantina-taqueria-and-tequila-bar-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 573,
     "categories": [
       { "alias": "mexican", "title": "Mexican" },
-      { "alias": "cocktailbars", "title": "Cocktail Bars" },
-      { "alias": "desserts", "title": "Desserts" }
+      { "alias": "latin", "title": "Latin American" },
+      { "alias": "cocktailbars", "title": "Cocktail Bars" }
     ],
     "rating": 4.0,
-    "coordinates": { "latitude": 40.75972, "longitude": -73.97472 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$$",
+    "coordinates": {
+      "latitude": 40.75771715349455,
+      "longitude": -73.98574138301436
+    },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
     "location": {
-      "address1": "510 Madison Ave",
+      "address1": "1838 7th Ave",
       "address2": null,
       "address3": "",
       "city": "New York",
-      "zip_code": "10022",
+      "zip_code": "10026",
       "country": "US",
       "state": "NY",
-      "display_address": ["510 Madison Ave", "New York, NY 10022"]
+      "display_address": ["1838 7th Ave", "New York, NY 10026"]
     },
-    "phone": "+12123801215",
-    "display_phone": "(212) 380-1215",
-    "distance": 323.1208244812309
-  },
-  {
-    "id": "2kkjzgLwKHFmLAfR86kE3Q",
-    "alias": "fonda-tribeca-new-york-4",
-    "name": "Fonda Tribeca",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/fd7ukzb7VENp1EN8F0PPIA/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/fonda-tribeca-new-york-4?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 40,
-    "categories": [{ "alias": "mexican", "title": "Mexican" }],
-    "rating": 4.5,
-    "coordinates": {
-      "latitude": 40.71664368792575,
-      "longitude": -74.00766223224433
-    },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$$",
-    "location": {
-      "address1": "139 Duane St",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10013",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["139 Duane St", "New York, NY 10013"]
-    },
-    "phone": "+19172616950",
-    "display_phone": "(917) 261-6950",
-    "distance": 5432.270812800286
-  },
-  {
-    "id": "xGoSAOhQBNdJMJmPn7CMDQ",
-    "alias": "mexicue-new-york-4",
-    "name": "MEXiCUE",
-    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/9awDMhfzm5zAmxkJrg46sg/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/mexicue-new-york-4?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 687,
-    "categories": [{ "alias": "mexican", "title": "Mexican" }],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.754109, "longitude": -73.986015 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "1440 Broadway",
-      "address2": null,
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10018",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["1440 Broadway", "New York, NY 10018"]
-    },
-    "phone": "+13322498600",
-    "display_phone": "(332) 249-8600",
-    "distance": 928.2162543923326
-  },
-  {
-    "id": "BsDu_kup3lJ2QHb-Botpeg",
-    "alias": "covacha-new-york",
-    "name": "Covacha",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/bB0bfKdzRoL2nXS2KonCaA/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/covacha-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 192,
-    "categories": [{ "alias": "mexican", "title": "Mexican" }],
-    "rating": 4.0,
-    "coordinates": {
-      "latitude": 40.78110489839311,
-      "longitude": -73.97644500326436
-    },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "368 Columbus Ave",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10023",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["368 Columbus Ave", "New York, NY 10023"]
-    },
-    "phone": "+12127122929",
-    "display_phone": "(212) 712-2929",
-    "distance": 2329.2977020648163
+    "phone": "+19292632110",
+    "display_phone": "(929) 263-2110",
+    "distance": 670.1443747976782,
+    "cuisine": "Mexican"
   },
   {
     "id": "6ezrABEThm48qv1qj8_FVw",
@@ -2588,7 +2531,7 @@
     ],
     "rating": 4.0,
     "coordinates": { "latitude": 40.7694, "longitude": -73.95816 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "1395 2nd Ave",
@@ -2602,7 +2545,221 @@
     },
     "phone": "+19172617011",
     "display_phone": "(917) 261-7011",
-    "distance": 1985.6955392235632
+    "distance": 1985.6955392235632,
+    "cuisine": "Mexican"
+  },
+  {
+    "id": "TgoYhgbPCYhLBNtpue3QHg",
+    "alias": "maya-new-york",
+    "name": "Maya",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/kWwazFLapTXYMFUSSGbiUQ/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/maya-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 1091,
+    "categories": [{ "alias": "mexican", "title": "Mexican" }],
+    "rating": 3.5,
+    "coordinates": {
+      "latitude": 40.7632055528185,
+      "longitude": -73.9596225112209
+    },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$$",
+    "location": {
+      "address1": "1191 1st Ave",
+      "address2": "",
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10065",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["1191 1st Ave", "New York, NY 10065"]
+    },
+    "phone": "+12125851818",
+    "display_phone": "(212) 585-1818",
+    "distance": 1624.343630452827,
+    "cuisine": "Mexican"
+  },
+  {
+    "id": "BsDu_kup3lJ2QHb-Botpeg",
+    "alias": "covacha-new-york",
+    "name": "Covacha",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/bB0bfKdzRoL2nXS2KonCaA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/covacha-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 192,
+    "categories": [{ "alias": "mexican", "title": "Mexican" }],
+    "rating": 4.0,
+    "coordinates": {
+      "latitude": 40.78110489839311,
+      "longitude": -73.97644500326436
+    },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "368 Columbus Ave",
+      "address2": "",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10023",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["368 Columbus Ave", "New York, NY 10023"]
+    },
+    "phone": "+12127122929",
+    "display_phone": "(212) 712-2929",
+    "distance": 2329.2977020648163,
+    "cuisine": "Mexican"
+  },
+  {
+    "id": "HjvCwjM0EkFoYo8TFHjfww",
+    "alias": "arre-sinaloa-union-city",
+    "name": "Arre Sinaloa",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/_YSAYjKYGE0-iV6PF_fVRw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/arre-sinaloa-union-city?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 57,
+    "categories": [{ "alias": "mexican", "title": "Mexican" }],
+    "rating": 5.0,
+    "coordinates": {
+      "latitude": 40.77804222204433,
+      "longitude": -74.0175949037075
+    },
+    "transactions": ["delivery", "pickup"],
+    "location": {
+      "address1": "4605 Park Ave",
+      "address2": "",
+      "address3": null,
+      "city": "Union City",
+      "zip_code": "07087",
+      "country": "US",
+      "state": "NJ",
+      "display_address": ["4605 Park Ave", "Union City, NJ 07087"]
+    },
+    "phone": "+12014309897",
+    "display_phone": "(201) 430-9897",
+    "distance": 3842.9902511930077,
+    "cuisine": "Mexican"
+  },
+  {
+    "id": "dgaNriM1VdI2nGochhHE_g",
+    "alias": "casa-enrique-long-island-city",
+    "name": "Casa Enrique",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/gR2Urh_9e7bTvVf3W7acog/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/casa-enrique-long-island-city?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 1512,
+    "categories": [{ "alias": "mexican", "title": "Mexican" }],
+    "rating": 4.0,
+    "coordinates": {
+      "latitude": 40.743404338358,
+      "longitude": -73.954350367693
+    },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "5-48 49th Ave",
+      "address2": "",
+      "address3": "",
+      "city": "Long Island City",
+      "zip_code": "11101",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["5-48 49th Ave", "Long Island City, NY 11101"]
+    },
+    "phone": "+13474486040",
+    "display_phone": "(347) 448-6040",
+    "distance": 2762.6733525367663,
+    "cuisine": "Mexican"
+  },
+  {
+    "id": "xGoSAOhQBNdJMJmPn7CMDQ",
+    "alias": "mexicue-new-york-4",
+    "name": "MEXiCUE",
+    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/9awDMhfzm5zAmxkJrg46sg/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/mexicue-new-york-4?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 687,
+    "categories": [{ "alias": "mexican", "title": "Mexican" }],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.754109, "longitude": -73.986015 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "1440 Broadway",
+      "address2": null,
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10018",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["1440 Broadway", "New York, NY 10018"]
+    },
+    "phone": "+13322498600",
+    "display_phone": "(332) 249-8600",
+    "distance": 928.2162543923326,
+    "cuisine": "Mexican"
+  },
+  {
+    "id": "2kkjzgLwKHFmLAfR86kE3Q",
+    "alias": "fonda-tribeca-new-york-4",
+    "name": "Fonda Tribeca",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/fd7ukzb7VENp1EN8F0PPIA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/fonda-tribeca-new-york-4?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 40,
+    "categories": [{ "alias": "mexican", "title": "Mexican" }],
+    "rating": 4.5,
+    "coordinates": {
+      "latitude": 40.71664368792575,
+      "longitude": -74.00766223224433
+    },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$$",
+    "location": {
+      "address1": "139 Duane St",
+      "address2": "",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10013",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["139 Duane St", "New York, NY 10013"]
+    },
+    "phone": "+19172616950",
+    "display_phone": "(917) 261-6950",
+    "distance": 5432.270812800286,
+    "cuisine": "Mexican"
+  },
+  {
+    "id": "2u8T56A4qu-MjeuT-v7s_g",
+    "alias": "casa-bocado-new-york",
+    "name": "Casa Bocado",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/V9IJ6YuSb6E6G2PYJ7K1EA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/casa-bocado-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 120,
+    "categories": [
+      { "alias": "mexican", "title": "Mexican" },
+      { "alias": "latin", "title": "Latin American" },
+      { "alias": "cocktailbars", "title": "Cocktail Bars" }
+    ],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.71958, "longitude": -73.99484 },
+    "transactions": ["delivery"],
+    "location": {
+      "address1": "341 Broome St",
+      "address2": null,
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10013",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["341 Broome St", "New York, NY 10013"]
+    },
+    "phone": "+12122047502",
+    "display_phone": "(212) 204-7502",
+    "distance": 4729.396988796907,
+    "cuisine": "Mexican"
   },
   {
     "id": "ueL0t_7Yu_ev2RrWK9dgDA",
@@ -2621,7 +2778,7 @@
       "latitude": 40.74844037111226,
       "longitude": -73.98618609111018
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "23 W 33rd St",
@@ -2635,7 +2792,8 @@
     },
     "phone": "+12129675555",
     "display_phone": "(212) 967-5555",
-    "distance": 1460.5772154158847
+    "distance": 1460.5772154158847,
+    "cuisine": "Mexican"
   },
   {
     "id": "xemN4tP9RlK5c-yUT-M71Q",
@@ -2644,7 +2802,7 @@
     "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/f3Gcpda9NsCVVUKTh1b1ng/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/mamasita-bar-and-grill-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1606,
+    "review_count": 1609,
     "categories": [
       { "alias": "mexican", "title": "Mexican" },
       { "alias": "bars", "title": "Bars" },
@@ -2652,7 +2810,7 @@
     ],
     "rating": 4.0,
     "coordinates": { "latitude": 40.76733, "longitude": -73.98945 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$$",
     "location": {
       "address1": "818 10th Ave",
@@ -2666,7 +2824,8 @@
     },
     "phone": "+12123159444",
     "display_phone": "(212) 315-9444",
-    "distance": 1219.3580492259446
+    "distance": 1219.3580492259446,
+    "cuisine": "Mexican"
   },
   {
     "id": "_2jMPuiK-7nLepFdPu2TTQ",
@@ -2696,94 +2855,8 @@
     },
     "phone": "+13478487734",
     "display_phone": "(347) 848-7734",
-    "distance": 3789.796352620622
-  },
-  {
-    "id": "TXLtPStqbC3acOpoHWDfYQ",
-    "alias": "sol-mexican-cocina-new-york",
-    "name": "SOL Mexican Cocina",
-    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Vcr5d_t45MkuZaQQxAqwHA/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/sol-mexican-cocina-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 49,
-    "categories": [
-      { "alias": "mexican", "title": "Mexican" },
-      { "alias": "bars", "title": "Bars" },
-      { "alias": "breakfast_brunch", "title": "Breakfast & Brunch" }
-    ],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.743791, "longitude": -73.988494 },
-    "transactions": ["pickup", "delivery"],
-    "location": {
-      "address1": "220 5th Ave",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10001",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["220 5th Ave", "New York, NY 10001"]
-    },
-    "phone": "+12126217671",
-    "display_phone": "(212) 621-7671",
-    "distance": 2017.2262816359466
-  },
-  {
-    "id": "NOh24SMS6k4pzNv8Ds7KDg",
-    "alias": "cafe-habana-new-york-4",
-    "name": "Cafe Habana",
-    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/cUHxmLdN0XyZi6AgvaMb3Q/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/cafe-habana-new-york-4?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 3318,
-    "categories": [
-      { "alias": "cuban", "title": "Cuban" },
-      { "alias": "mexican", "title": "Mexican" }
-    ],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.72293, "longitude": -73.99419 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "17 Prince St",
-      "address2": "",
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10012",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["17 Prince St", "New York, NY 10012"]
-    },
-    "phone": "+12126252001",
-    "display_phone": "(212) 625-2001",
-    "distance": 4351.264113969411
-  },
-  {
-    "id": "IfIyjm4SfORGYPbaAWST3g",
-    "alias": "mexicue-new-york-6",
-    "name": "MEXiCUE",
-    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/brTTireZXpRE2UEbSPlYCQ/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/mexicue-new-york-6?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 680,
-    "categories": [{ "alias": "mexican", "title": "Mexican" }],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.743617, "longitude": -73.987867 },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "225 5th Ave",
-      "address2": "",
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10010",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["225 5th Ave", "New York, NY 10010"]
-    },
-    "phone": "+13322633200",
-    "display_phone": "(332) 263-3200",
-    "distance": 2007.1773825742137
+    "distance": 3789.796352620622,
+    "cuisine": "Mexican"
   },
   {
     "id": "xN4yKQMzo3PIoQlFamUOLQ",
@@ -2816,7 +2889,67 @@
     },
     "phone": "+16466137100",
     "display_phone": "(646) 613-7100",
-    "distance": 518.0315827574314
+    "distance": 518.0315827574314,
+    "cuisine": "Mexican"
+  },
+  {
+    "id": "NOh24SMS6k4pzNv8Ds7KDg",
+    "alias": "cafe-habana-new-york-4",
+    "name": "Cafe Habana",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/cUHxmLdN0XyZi6AgvaMb3Q/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/cafe-habana-new-york-4?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 3317,
+    "categories": [
+      { "alias": "cuban", "title": "Cuban" },
+      { "alias": "mexican", "title": "Mexican" }
+    ],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.72293, "longitude": -73.99419 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "17 Prince St",
+      "address2": "",
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10012",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["17 Prince St", "New York, NY 10012"]
+    },
+    "phone": "+12126252001",
+    "display_phone": "(212) 625-2001",
+    "distance": 4351.264113969411,
+    "cuisine": "Mexican"
+  },
+  {
+    "id": "IfIyjm4SfORGYPbaAWST3g",
+    "alias": "mexicue-new-york-6",
+    "name": "MEXiCUE",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/brTTireZXpRE2UEbSPlYCQ/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/mexicue-new-york-6?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 681,
+    "categories": [{ "alias": "mexican", "title": "Mexican" }],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.743617, "longitude": -73.987867 },
+    "transactions": ["delivery", "pickup"],
+    "price": "$$",
+    "location": {
+      "address1": "225 5th Ave",
+      "address2": "",
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10010",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["225 5th Ave", "New York, NY 10010"]
+    },
+    "phone": "+13322633200",
+    "display_phone": "(332) 263-3200",
+    "distance": 2007.1773825742137,
+    "cuisine": "Mexican"
   },
   {
     "id": "2hmhZim4bX2lbjPSNc7LaA",
@@ -2836,7 +2969,7 @@
       "latitude": 40.7368812561035,
       "longitude": -73.9873886108398
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "119 E 18th St",
@@ -2850,7 +2983,8 @@
     },
     "phone": "+12125390202",
     "display_phone": "(212) 539-0202",
-    "distance": 2700.699950892872
+    "distance": 2700.699950892872,
+    "cuisine": "Mexican"
   },
   {
     "id": "hKkPlYmHoS9Nb_UbGGqx8A",
@@ -2867,7 +3001,7 @@
     ],
     "rating": 4.0,
     "coordinates": { "latitude": 40.7409292, "longitude": -73.98192270000001 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "358 3rd Ave",
@@ -2881,7 +3015,39 @@
     },
     "phone": "+16467915413",
     "display_phone": "(646) 791-5413",
-    "distance": 2163.761470576087
+    "distance": 2163.761470576087,
+    "cuisine": "Mexican"
+  },
+  {
+    "id": "TXLtPStqbC3acOpoHWDfYQ",
+    "alias": "sol-mexican-cocina-new-york",
+    "name": "SOL Mexican Cocina",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Vcr5d_t45MkuZaQQxAqwHA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/sol-mexican-cocina-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 49,
+    "categories": [
+      { "alias": "mexican", "title": "Mexican" },
+      { "alias": "bars", "title": "Bars" },
+      { "alias": "breakfast_brunch", "title": "Breakfast & Brunch" }
+    ],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.743791, "longitude": -73.988494 },
+    "transactions": ["delivery", "pickup"],
+    "location": {
+      "address1": "220 5th Ave",
+      "address2": "",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10001",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["220 5th Ave", "New York, NY 10001"]
+    },
+    "phone": "+12126217671",
+    "display_phone": "(212) 621-7671",
+    "distance": 2017.2262816359466,
+    "cuisine": "Mexican"
   },
   {
     "id": "SXWnyFNLCehVlJPRxk7gAg",
@@ -2901,7 +3067,7 @@
       "latitude": 40.71931499731559,
       "longitude": -74.00427174111186
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "301 Church St",
@@ -2915,101 +3081,39 @@
     },
     "phone": "+12129206270",
     "display_phone": "(212) 920-6270",
-    "distance": 5039.574838385653
+    "distance": 5039.574838385653,
+    "cuisine": "Mexican"
   },
   {
-    "id": "tuP7STBjszTvKcQLeFMnkw",
-    "alias": "ninas-great-burrito-bar-new-york",
-    "name": "Nina's Great Burrito Bar",
-    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/BREW1doEsI1LFsIZCzIzow/o.jpg",
+    "id": "RzKR9QcYP03EQ_8DxTxowg",
+    "alias": "barrio-chino-new-york",
+    "name": "Barrio Chino",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/dpaRqPZD6xqDZo2ZfOyjnQ/o.jpg",
     "is_closed": false,
-    "url": "https://www.yelp.com/biz/ninas-great-burrito-bar-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 410,
+    "url": "https://www.yelp.com/biz/barrio-chino-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 1178,
     "categories": [
       { "alias": "mexican", "title": "Mexican" },
-      { "alias": "comfortfood", "title": "Comfort Food" }
+      { "alias": "bars", "title": "Bars" }
     ],
     "rating": 4.0,
-    "coordinates": { "latitude": 40.786026, "longitude": -73.972724 },
-    "transactions": ["pickup", "delivery"],
+    "coordinates": { "latitude": 40.718022, "longitude": -73.990026 },
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
-      "address1": "522 Columbus Ave",
-      "address2": "",
+      "address1": "253 Broome St",
+      "address2": null,
       "address3": "",
       "city": "New York",
-      "zip_code": "10024",
+      "zip_code": "10002",
       "country": "US",
       "state": "NY",
-      "display_address": ["522 Columbus Ave", "New York, NY 10024"]
+      "display_address": ["253 Broome St", "New York, NY 10002"]
     },
-    "phone": "+12127245151",
-    "display_phone": "(212) 724-5151",
-    "distance": 2913.1677091770025
-  },
-  {
-    "id": "10tnq8x2qI7ix7VqVP0rMw",
-    "alias": "tacombi-upper-west-side-new-york",
-    "name": "Tacombi",
-    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/sW5qaZt-LxMIMgbeYBDVHA/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/tacombi-upper-west-side-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 275,
-    "categories": [{ "alias": "tacos", "title": "Tacos" }],
-    "rating": 3.5,
-    "coordinates": {
-      "latitude": 40.78261049298808,
-      "longitude": -73.97844461874793
-    },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "377 Amsterdam Ave",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10024",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["377 Amsterdam Ave", "New York, NY 10024"]
-    },
-    "phone": "+16468223383",
-    "display_phone": "(646) 822-3383",
-    "distance": 2490.2767819110913
-  },
-  {
-    "id": "4UxmxAqehEIh7fYrzUEA7A",
-    "alias": "tacovision-new-york",
-    "name": "Tacovision",
-    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/EfrjITd91o0qgammBTx-JA/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/tacovision-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 414,
-    "categories": [
-      { "alias": "tacos", "title": "Tacos" },
-      { "alias": "tapasmallplates", "title": "Tapas/Small Plates" },
-      { "alias": "cocktailbars", "title": "Cocktail Bars" }
-    ],
-    "rating": 4.0,
-    "coordinates": {
-      "latitude": 40.7568200311153,
-      "longitude": -73.9678929001093
-    },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "244 E 53rd St",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10004",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["244 E 53rd St", "New York, NY 10004"]
-    },
-    "phone": "+16469211990",
-    "display_phone": "(646) 921-1990",
-    "distance": 969.9059868991814
+    "phone": "+12122286710",
+    "display_phone": "(212) 228-6710",
+    "distance": 4791.069494550982,
+    "cuisine": "Mexican"
   },
   {
     "id": "16ZnHpuaaBt92XWeJHCC5A",
@@ -3018,7 +3122,7 @@
     "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/CUpPgz_Q4QBHxxxxDJJTTA/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/olio-e-pi%C3%B9-new-york-7?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 4862,
+    "review_count": 4861,
     "categories": [
       { "alias": "pizza", "title": "Pizza" },
       { "alias": "italian", "title": "Italian" },
@@ -3029,7 +3133,7 @@
       "latitude": 40.733798036104304,
       "longitude": -73.99977392649927
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "3 Greenwich Ave",
@@ -3043,7 +3147,8 @@
     },
     "phone": "+12122436546",
     "display_phone": "(212) 243-6546",
-    "distance": 3440.941932265756
+    "distance": 3440.941932265756,
+    "cuisine": "Italian"
   },
   {
     "id": "hdiuRS9sVZSMReZm4oV5SA",
@@ -3052,7 +3157,7 @@
     "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/OciLddTWxvBLKMH5DkMAOw/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/da-andrea-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 2068,
+    "review_count": 2070,
     "categories": [
       { "alias": "italian", "title": "Italian" },
       { "alias": "mediterranean", "title": "Mediterranean" },
@@ -3060,7 +3165,7 @@
     ],
     "rating": 4.5,
     "coordinates": { "latitude": 40.736218, "longitude": -73.99597 },
-    "transactions": ["pickup", "restaurant_reservation", "delivery"],
+    "transactions": ["restaurant_reservation", "pickup", "delivery"],
     "price": "$$",
     "location": {
       "address1": "35 W 13th St",
@@ -3074,7 +3179,8 @@
     },
     "phone": "+12123671979",
     "display_phone": "(212) 367-1979",
-    "distance": 3047.2448524235715
+    "distance": 3047.2448524235715,
+    "cuisine": "Italian"
   },
   {
     "id": "OWNmOq-TAsHjGcYdCVclSw",
@@ -3100,7 +3206,8 @@
     },
     "phone": "+19176719898",
     "display_phone": "(917) 671-9898",
-    "distance": 261.6862442703956
+    "distance": 261.6862442703956,
+    "cuisine": "Italian"
   },
   {
     "id": "DoSU8IPq-Py_YV3kYmXPfQ",
@@ -3127,7 +3234,8 @@
     },
     "phone": "+12129974540",
     "display_phone": "(212) 997-4540",
-    "distance": 699.6215371899465
+    "distance": 699.6215371899465,
+    "cuisine": "Italian"
   },
   {
     "id": "VmdyRRMtUXOWV7F7w0ImwQ",
@@ -3136,7 +3244,7 @@
     "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/AlY4fWNZKAgYaS8bRAYJ4Q/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/piccola-cucina-uptown-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 377,
+    "review_count": 378,
     "categories": [{ "alias": "sicilian", "title": "Sicilian" }],
     "rating": 4.5,
     "coordinates": { "latitude": 40.763174, "longitude": -73.969046 },
@@ -3154,7 +3262,8 @@
     },
     "phone": "+16467073997",
     "display_phone": "(646) 707-3997",
-    "distance": 861.5743326078291
+    "distance": 861.5743326078291,
+    "cuisine": "Italian"
   },
   {
     "id": "vjubSxmdG_HoBBgd39geBw",
@@ -3170,8 +3279,8 @@
       { "alias": "pizza", "title": "Pizza" }
     ],
     "rating": 4.0,
-    "coordinates": { "latitude": 40.7569046125342, "longitude": -73.980516 },
-    "transactions": ["pickup", "restaurant_reservation", "delivery"],
+    "coordinates": { "latitude": 40.756899, "longitude": -73.980507 },
+    "transactions": ["restaurant_reservation", "pickup", "delivery"],
     "price": "$$",
     "location": {
       "address1": "39 W 46th St",
@@ -3185,7 +3294,8 @@
     },
     "phone": "+12127194015",
     "display_phone": "(212) 719-4015",
-    "distance": 405.3523029935726
+    "distance": 405.76742870079994,
+    "cuisine": "Italian"
   },
   {
     "id": "WG639VkTjmK5dzydd1BBJA",
@@ -3194,7 +3304,7 @@
     "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/l0Phrnhhj78RFiDhLIOUyQ/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/rubirosa-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 3167,
+    "review_count": 3171,
     "categories": [
       { "alias": "italian", "title": "Italian" },
       { "alias": "pizza", "title": "Pizza" }
@@ -3215,7 +3325,8 @@
     },
     "phone": "+12129650500",
     "display_phone": "(212) 965-0500",
-    "distance": 4424.001338202467
+    "distance": 4424.001338202467,
+    "cuisine": "Italian"
   },
   {
     "id": "rp8S7scxOkVVeG7dNneMGQ",
@@ -3245,7 +3356,8 @@
     },
     "phone": "+12122555757",
     "display_phone": "(212) 255-5757",
-    "distance": 3702.6967291210426
+    "distance": 3702.6967291210426,
+    "cuisine": "Italian"
   },
   {
     "id": "HpxYBu1ARzOGvuUcLJe54g",
@@ -3263,7 +3375,7 @@
     "rating": 4.5,
     "coordinates": { "latitude": 40.7660476, "longitude": -73.987591 },
     "transactions": ["pickup", "delivery"],
-    "price": "$$",
+    "price": "$$$",
     "location": {
       "address1": "400 1/2 W 54th St",
       "address2": "",
@@ -3276,7 +3388,8 @@
     },
     "phone": "+16467264575",
     "display_phone": "(646) 726-4575",
-    "distance": 1003.3986360609495
+    "distance": 1003.3986360609495,
+    "cuisine": "Italian"
   },
   {
     "id": "V3USzFEGhuoXez4G2Rk11A",
@@ -3307,7 +3420,35 @@
     },
     "phone": "+12122731181",
     "display_phone": "(212) 273-1181",
-    "distance": 1451.195568662845
+    "distance": 1451.195568662845,
+    "cuisine": "Italian"
+  },
+  {
+    "id": "JFmWkslCGTeuwC_Yews4-Q",
+    "alias": "carlotto-new-york",
+    "name": "Carlotto",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/_wZvTt_s-LtgDfJfMdzJ_g/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/carlotto-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 30,
+    "categories": [{ "alias": "italian", "title": "Italian" }],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.7375, "longitude": -73.98782 },
+    "transactions": [],
+    "location": {
+      "address1": "100 E 19th St",
+      "address2": "",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10003",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["100 E 19th St", "New York, NY 10003"]
+    },
+    "phone": "+12122091054",
+    "display_phone": "(212) 209-1054",
+    "distance": 2647.475811674278,
+    "cuisine": "Italian"
   },
   {
     "id": "Z-QmxQZAJEy5GXqA82Bemw",
@@ -3333,7 +3474,8 @@
     },
     "phone": "+12126064054",
     "display_phone": "(212) 606-4054",
-    "distance": 3794.47952422981
+    "distance": 3794.47952422981,
+    "cuisine": "Italian"
   },
   {
     "id": "OAqsZMbjv66nOMqlimnYuQ",
@@ -3367,7 +3509,8 @@
     },
     "phone": "+12124724552",
     "display_phone": "(212) 472-4552",
-    "distance": 2342.7565499994726
+    "distance": 2342.7565499994726,
+    "cuisine": "Italian"
   },
   {
     "id": "22nKUyCIbpnzR6R3_g1ptQ",
@@ -3400,7 +3543,102 @@
     },
     "phone": "+12122213800",
     "display_phone": "(212) 221-3800",
-    "distance": 750.187780787568
+    "distance": 750.187780787568,
+    "cuisine": "Italian"
+  },
+  {
+    "id": "JLpEKUYAtzBRQwsUL3RPIA",
+    "alias": "il-corso-new-york",
+    "name": "Il Corso",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Kaq43p0ueSp872npX-zITw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/il-corso-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 443,
+    "categories": [
+      { "alias": "italian", "title": "Italian" },
+      { "alias": "wine_bars", "title": "Wine Bars" }
+    ],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.762441, "longitude": -73.977206 },
+    "transactions": ["delivery"],
+    "price": "$$$",
+    "location": {
+      "address1": "54 W 55th St",
+      "address2": null,
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10019",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["54 W 55th St", "New York, NY 10019"]
+    },
+    "phone": "+12129571500",
+    "display_phone": "(212) 957-1500",
+    "distance": 270.33369317301305,
+    "cuisine": "Italian"
+  },
+  {
+    "id": "h37t9rA06Sr4EetJjKrfzw",
+    "alias": "don-angie-new-york",
+    "name": "Don Angie",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/onJX6_vaMPHXUqIbMrq79A/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/don-angie-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 781,
+    "categories": [
+      { "alias": "italian", "title": "Italian" },
+      { "alias": "newamerican", "title": "American (New)" }
+    ],
+    "rating": 4.5,
+    "coordinates": { "latitude": 40.73778, "longitude": -74.00197 },
+    "transactions": ["delivery"],
+    "price": "$$$",
+    "location": {
+      "address1": "103 Greenwich Ave",
+      "address2": "",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10014",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["103 Greenwich Ave", "New York, NY 10014"]
+    },
+    "phone": "+12128898884",
+    "display_phone": "(212) 889-8884",
+    "distance": 3185.3614588844407,
+    "cuisine": "Italian"
+  },
+  {
+    "id": "raqwXUBlnc0e8c7CYmxEJQ",
+    "alias": "scarpetta-new-york",
+    "name": "Scarpetta",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/rSgDEOpd3JSl3llkpVu8tg/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/scarpetta-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 2272,
+    "categories": [
+      { "alias": "italian", "title": "Italian" },
+      { "alias": "bars", "title": "Bars" },
+      { "alias": "desserts", "title": "Desserts" }
+    ],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.744509, "longitude": -73.9856 },
+    "transactions": ["delivery"],
+    "price": "$$$",
+    "location": {
+      "address1": "88 Madison Ave",
+      "address2": "",
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10016",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["88 Madison Ave", "New York, NY 10016"]
+    },
+    "phone": "+12126910555",
+    "display_phone": "(212) 691-0555",
+    "distance": 1845.9714846749469,
+    "cuisine": "Italian"
   },
   {
     "id": "ktMtLr8mp4K7IGxUgCTs6Q",
@@ -3433,155 +3671,8 @@
     },
     "phone": "+12122622525",
     "display_phone": "(212) 262-2525",
-    "distance": 1100.176482036109
-  },
-  {
-    "id": "JLpEKUYAtzBRQwsUL3RPIA",
-    "alias": "il-corso-new-york",
-    "name": "Il Corso",
-    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Kaq43p0ueSp872npX-zITw/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/il-corso-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 443,
-    "categories": [
-      { "alias": "italian", "title": "Italian" },
-      { "alias": "wine_bars", "title": "Wine Bars" }
-    ],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.762441, "longitude": -73.977206 },
-    "transactions": ["delivery"],
-    "price": "$$$",
-    "location": {
-      "address1": "54 W 55th St",
-      "address2": null,
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10019",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["54 W 55th St", "New York, NY 10019"]
-    },
-    "phone": "+12129571500",
-    "display_phone": "(212) 957-1500",
-    "distance": 270.33369317301305
-  },
-  {
-    "id": "JFmWkslCGTeuwC_Yews4-Q",
-    "alias": "carlotto-new-york",
-    "name": "Carlotto",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/_wZvTt_s-LtgDfJfMdzJ_g/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/carlotto-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 30,
-    "categories": [{ "alias": "italian", "title": "Italian" }],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.7375, "longitude": -73.98782 },
-    "transactions": [],
-    "location": {
-      "address1": "100 E 19th St",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10003",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["100 E 19th St", "New York, NY 10003"]
-    },
-    "phone": "+12122091054",
-    "display_phone": "(212) 209-1054",
-    "distance": 2647.475811674278
-  },
-  {
-    "id": "h37t9rA06Sr4EetJjKrfzw",
-    "alias": "don-angie-new-york",
-    "name": "Don Angie",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/onJX6_vaMPHXUqIbMrq79A/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/don-angie-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 779,
-    "categories": [
-      { "alias": "italian", "title": "Italian" },
-      { "alias": "newamerican", "title": "American (New)" }
-    ],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.73778, "longitude": -74.00197 },
-    "transactions": ["delivery"],
-    "price": "$$$",
-    "location": {
-      "address1": "103 Greenwich Ave",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10014",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["103 Greenwich Ave", "New York, NY 10014"]
-    },
-    "phone": "+12128898884",
-    "display_phone": "(212) 889-8884",
-    "distance": 3185.3614588844407
-  },
-  {
-    "id": "raqwXUBlnc0e8c7CYmxEJQ",
-    "alias": "scarpetta-new-york",
-    "name": "Scarpetta",
-    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/rSgDEOpd3JSl3llkpVu8tg/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/scarpetta-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 2273,
-    "categories": [
-      { "alias": "italian", "title": "Italian" },
-      { "alias": "bars", "title": "Bars" },
-      { "alias": "desserts", "title": "Desserts" }
-    ],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.744509, "longitude": -73.9856 },
-    "transactions": ["delivery"],
-    "price": "$$$",
-    "location": {
-      "address1": "88 Madison Ave",
-      "address2": "",
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10016",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["88 Madison Ave", "New York, NY 10016"]
-    },
-    "phone": "+12126910555",
-    "display_phone": "(212) 691-0555",
-    "distance": 1845.9714846749469
-  },
-  {
-    "id": "OCTiJwvjoK81WoDwsTkFvA",
-    "alias": "paesano-of-mulberry-street-new-york",
-    "name": "Paesano of Mulberry Street",
-    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/yN9ARCE3LF6u9E0yN5WpIw/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/paesano-of-mulberry-street-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1420,
-    "categories": [
-      { "alias": "italian", "title": "Italian" },
-      { "alias": "salad", "title": "Salad" },
-      { "alias": "seafood", "title": "Seafood" }
-    ],
-    "rating": 4.0,
-    "coordinates": { "latitude": 40.718554, "longitude": -73.997447 },
-    "transactions": ["pickup", "restaurant_reservation", "delivery"],
-    "price": "$$",
-    "location": {
-      "address1": "136 Mulberry St",
-      "address2": "",
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10013",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["136 Mulberry St", "New York, NY 10013"]
-    },
-    "phone": "+12129651188",
-    "display_phone": "(212) 965-1188",
-    "distance": 4899.786912203181
+    "distance": 1100.176482036109,
+    "cuisine": "Italian"
   },
   {
     "id": "LkV96_buOU_n0br4SBO57w",
@@ -3590,7 +3681,7 @@
     "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Sc2AdduIiIcN7U36j_wstQ/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/ci-siamo-new-york-5?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 364,
+    "review_count": 366,
     "categories": [
       { "alias": "italian", "title": "Italian" },
       { "alias": "bars", "title": "Bars" },
@@ -3615,7 +3706,8 @@
     },
     "phone": "+12122196559",
     "display_phone": "(212) 219-6559",
-    "distance": 1879.2335564498362
+    "distance": 1879.2335564498362,
+    "cuisine": "Italian"
   },
   {
     "id": "26emJlm1YMFyOCezfgVk4g",
@@ -3624,7 +3716,7 @@
     "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/qQ1oAz1LA54i9i_kGjrzhA/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/da-raffaele-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 219,
+    "review_count": 220,
     "categories": [{ "alias": "italian", "title": "Italian" }],
     "rating": 4.5,
     "coordinates": {
@@ -3645,7 +3737,8 @@
     },
     "phone": "+16468959849",
     "display_phone": "(646) 895-9849",
-    "distance": 1247.2467752613275
+    "distance": 1247.2467752613275,
+    "cuisine": "Italian"
   },
   {
     "id": "AUifp6IDKzmorCM6vY2fug",
@@ -3661,7 +3754,7 @@
       "latitude": 40.7468940064083,
       "longitude": -74.0049896784992
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "195 10th Ave",
@@ -3675,7 +3768,8 @@
     },
     "phone": "+12122426055",
     "display_phone": "(212) 242-6055",
-    "distance": 2678.1632285019805
+    "distance": 2678.1632285019805,
+    "cuisine": "Italian"
   },
   {
     "id": "qBGKigOGn_flCx1apxPzlA",
@@ -3684,11 +3778,11 @@
     "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/NpARz4CQKQWq5kWzO10jxw/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/piccola-cucina-osteria-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 796,
+    "review_count": 797,
     "categories": [{ "alias": "italian", "title": "Italian" }],
     "rating": 4.5,
     "coordinates": { "latitude": 40.72506, "longitude": -74.00322 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "196 Spring St",
@@ -3702,7 +3796,8 @@
     },
     "phone": "+16464787488",
     "display_phone": "(646) 478-7488",
-    "distance": 4434.318114509252
+    "distance": 4434.318114509252,
+    "cuisine": "Italian"
   },
   {
     "id": "5TX0X8w5ssIACU_pnBEq6g",
@@ -3733,36 +3828,40 @@
     },
     "phone": "+12122210100",
     "display_phone": "(212) 221-0100",
-    "distance": 716.4452640700139
+    "distance": 716.4452640700139,
+    "cuisine": "Italian"
   },
   {
-    "id": "5Ukroq-mXS86EtRKj5deAQ",
-    "alias": "song-e-napule-new-york-5",
-    "name": "Song E Napule",
-    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/abCOG49JsvrwIqOKQIxOVA/o.jpg",
+    "id": "OCTiJwvjoK81WoDwsTkFvA",
+    "alias": "paesano-of-mulberry-street-new-york",
+    "name": "Paesano of Mulberry Street",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/yN9ARCE3LF6u9E0yN5WpIw/o.jpg",
     "is_closed": false,
-    "url": "https://www.yelp.com/biz/song-e-napule-new-york-5?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 67,
+    "url": "https://www.yelp.com/biz/paesano-of-mulberry-street-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 1418,
     "categories": [
-      { "alias": "pizza", "title": "Pizza" },
-      { "alias": "italian", "title": "Italian" }
+      { "alias": "italian", "title": "Italian" },
+      { "alias": "salad", "title": "Salad" },
+      { "alias": "seafood", "title": "Seafood" }
     ],
-    "rating": 4.5,
-    "coordinates": { "latitude": 40.78544473364387, "longitude": -73.9769653 },
-    "transactions": ["pickup", "delivery"],
+    "rating": 4.0,
+    "coordinates": { "latitude": 40.718554, "longitude": -73.997447 },
+    "transactions": ["restaurant_reservation", "delivery", "pickup"],
+    "price": "$$",
     "location": {
-      "address1": "464 Amsterdam Ave",
+      "address1": "136 Mulberry St",
       "address2": "",
-      "address3": null,
+      "address3": "",
       "city": "New York",
-      "zip_code": "10024",
+      "zip_code": "10013",
       "country": "US",
       "state": "NY",
-      "display_address": ["464 Amsterdam Ave", "New York, NY 10024"]
+      "display_address": ["136 Mulberry St", "New York, NY 10013"]
     },
-    "phone": "+19174727561",
-    "display_phone": "(917) 472-7561",
-    "distance": 2808.4016874763424
+    "phone": "+12129651188",
+    "display_phone": "(212) 965-1188",
+    "distance": 4899.786912203181,
+    "cuisine": "Italian"
   },
   {
     "id": "Q1_UvNyONsaVS_VC1mD9Dw",
@@ -3793,7 +3892,8 @@
     },
     "phone": "+12128738500",
     "display_phone": "(212) 873-8500",
-    "distance": 2857.4952785463647
+    "distance": 2857.4952785463647,
+    "cuisine": "Italian"
   },
   {
     "id": "MOwB9YYd-Ko6nVgSB-ltQw",
@@ -3802,7 +3902,7 @@
     "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/MCi7eJnHST0CPI0sG_x-dw/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/briciola-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1011,
+    "review_count": 1012,
     "categories": [
       { "alias": "italian", "title": "Italian" },
       { "alias": "wine_bars", "title": "Wine Bars" },
@@ -3813,7 +3913,7 @@
       "latitude": 40.7637997047278,
       "longitude": -73.9880919456482
     },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "370 W 51st St",
@@ -3827,7 +3927,8 @@
     },
     "phone": "+16466785763",
     "display_phone": "(646) 678-5763",
-    "distance": 900.8151135164967
+    "distance": 900.8151135164967,
+    "cuisine": "Italian"
   },
   {
     "id": "8oO6j7AlnAbMSJs9Oj9GIw",
@@ -3854,7 +3955,8 @@
     },
     "phone": "+12128385972",
     "display_phone": "(212) 838-5972",
-    "distance": 360.66782436988524
+    "distance": 360.66782436988524,
+    "cuisine": "Italian"
   },
   {
     "id": "zYaYXpmlo6QdnaPwuxWHhQ",
@@ -3884,7 +3986,38 @@
     },
     "phone": "+16465246294",
     "display_phone": "(646) 524-6294",
-    "distance": 2605.0116208926333
+    "distance": 2605.0116208926333,
+    "cuisine": "Italian"
+  },
+  {
+    "id": "TqNd-LKHuoYo1_mYwqiBFQ",
+    "alias": "nonna-dora-s-new-york",
+    "name": "Nonna Dora\u2019s",
+    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/A81uA-nt4T8stvAYDjiJEw/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/nonna-dora-s-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 110,
+    "categories": [{ "alias": "pastashops", "title": "Pasta Shops" }],
+    "rating": 4.5,
+    "coordinates": {
+      "latitude": 40.74440176159688,
+      "longitude": -73.97634764480043
+    },
+    "transactions": [],
+    "location": {
+      "address1": "606 2nd Ave",
+      "address2": "",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10016",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["606 2nd Ave", "New York, NY 10016"]
+    },
+    "phone": "+19172616544",
+    "display_phone": "(917) 261-6544",
+    "distance": 1767.6654968498756,
+    "cuisine": "Italian"
   },
   {
     "id": "Zp-K3ztVTzR-LrWwl_CBgA",
@@ -3893,7 +4026,7 @@
     "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/_Ic5KSqAxdL2dd6UkeuyGw/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/la-pecora-bianca-new-york-6?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 254,
+    "review_count": 256,
     "categories": [
       { "alias": "bars", "title": "Bars" },
       { "alias": "italian", "title": "Italian" },
@@ -3917,37 +4050,8 @@
     },
     "phone": "+12129244040",
     "display_phone": "(212) 924-4040",
-    "distance": 934.5677629757193
-  },
-  {
-    "id": "LXdblKc5g1Dp17xiV-Am1w",
-    "alias": "trattoria-dellarte-new-york",
-    "name": "Trattoria Dell'Arte",
-    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/YLzbKuDi2qwkFk_oBTo9BA/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/trattoria-dellarte-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1203,
-    "categories": [{ "alias": "italian", "title": "Italian" }],
-    "rating": 4.0,
-    "coordinates": {
-      "latitude": 40.76545990643915,
-      "longitude": -73.98053136970677
-    },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$$",
-    "location": {
-      "address1": "900 7th Ave",
-      "address2": "",
-      "address3": "",
-      "city": "New York",
-      "zip_code": "10019",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["900 7th Ave", "New York, NY 10019"]
-    },
-    "phone": "+12122459800",
-    "display_phone": "(212) 245-9800",
-    "distance": 607.7831852541938
+    "distance": 934.5677629757193,
+    "cuisine": "Italian"
   },
   {
     "id": "yB4ziqFM_7V8JxJas7CHfA",
@@ -3980,7 +4084,8 @@
     },
     "phone": "+12126848000",
     "display_phone": "(212) 684-8000",
-    "distance": 1899.1780758476311
+    "distance": 1899.1780758476311,
+    "cuisine": "Italian"
   },
   {
     "id": "JwCnSW-RQ7_DxvbzWNO1hA",
@@ -4011,7 +4116,8 @@
     },
     "phone": "+16468612889",
     "display_phone": "(646) 861-2889",
-    "distance": 2164.523528618198
+    "distance": 2164.523528618198,
+    "cuisine": "Italian"
   },
   {
     "id": "Vs8kQ4R381y27AH018gLpg",
@@ -4045,7 +4151,8 @@
     },
     "phone": "+12124777600",
     "display_phone": "(212) 477-7600",
-    "distance": 4186.653998598968
+    "distance": 4186.653998598968,
+    "cuisine": "Italian"
   },
   {
     "id": "yQ7K4uFnxXxpBVbnOSR8kA",
@@ -4054,7 +4161,7 @@
     "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/6_GgDJkM2grSVfezrxu9RA/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/polpette-71-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 253,
+    "review_count": 254,
     "categories": [{ "alias": "italian", "title": "Italian" }],
     "rating": 4.0,
     "coordinates": { "latitude": 40.77668, "longitude": -73.97888 },
@@ -4072,7 +4179,8 @@
     },
     "phone": "+12128751512",
     "display_phone": "(212) 875-1512",
-    "distance": 1829.8889576404288
+    "distance": 1829.8889576404288,
+    "cuisine": "Italian"
   },
   {
     "id": "jDIVPYpxQAk1HUAi0NIlQw",
@@ -4081,7 +4189,7 @@
     "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/18k05WKRdFy__hRxathV7Q/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/pazza-notte-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1050,
+    "review_count": 1051,
     "categories": [
       { "alias": "italian", "title": "Italian" },
       { "alias": "lounges", "title": "Lounges" },
@@ -4089,7 +4197,7 @@
     ],
     "rating": 4.0,
     "coordinates": { "latitude": 40.763454, "longitude": -73.97818 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "1375 6th Ave",
@@ -4103,7 +4211,8 @@
     },
     "phone": "+12127656288",
     "display_phone": "(212) 765-6288",
-    "distance": 374.6249690165224
+    "distance": 374.6249690165224,
+    "cuisine": "Italian"
   },
   {
     "id": "z7H9ApIGopnDnQaglnPTzg",
@@ -4133,7 +4242,8 @@
     },
     "phone": "+12127549800",
     "display_phone": "(212) 754-9800",
-    "distance": 810.9530908049022
+    "distance": 810.9530908049022,
+    "cuisine": "Italian"
   },
   {
     "id": "yZJbealagfujEkgesAl2hA",
@@ -4146,7 +4256,7 @@
     "categories": [{ "alias": "italian", "title": "Italian" }],
     "rating": 4.0,
     "coordinates": { "latitude": 40.7276, "longitude": -74.000045 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$$",
     "location": {
       "address1": "170 Thompson St",
@@ -4160,7 +4270,8 @@
     },
     "phone": "+12129825089",
     "display_phone": "(212) 982-5089",
-    "distance": 4050.2606595202838
+    "distance": 4050.2606595202838,
+    "cuisine": "Italian"
   },
   {
     "id": "Ve6GVzzJpR5QIIPdcn6ViQ",
@@ -4191,7 +4302,8 @@
     },
     "phone": "+12126432000",
     "display_phone": "(212) 643-2000",
-    "distance": 1353.7649154225949
+    "distance": 1353.7649154225949,
+    "cuisine": "Italian"
   },
   {
     "id": "MphfKkYFEe0BDQ6hZ0A5fA",
@@ -4222,7 +4334,8 @@
     },
     "phone": "+12122261600",
     "display_phone": "(212) 226-1600",
-    "distance": 4788.444771368333
+    "distance": 4788.444771368333,
+    "cuisine": "Italian"
   },
   {
     "id": "HiNUBUR1hFwScd_OvVLQAg",
@@ -4249,7 +4362,39 @@
     },
     "phone": "+12124989696",
     "display_phone": "(212) 498-9696",
-    "distance": 2043.3176171330297
+    "distance": 2043.3176171330297,
+    "cuisine": "Italian"
+  },
+  {
+    "id": "LXdblKc5g1Dp17xiV-Am1w",
+    "alias": "trattoria-dellarte-new-york",
+    "name": "Trattoria Dell'Arte",
+    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/YLzbKuDi2qwkFk_oBTo9BA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/trattoria-dellarte-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 1203,
+    "categories": [{ "alias": "italian", "title": "Italian" }],
+    "rating": 4.0,
+    "coordinates": {
+      "latitude": 40.76545990643915,
+      "longitude": -73.98053136970677
+    },
+    "transactions": ["pickup", "delivery"],
+    "price": "$$$",
+    "location": {
+      "address1": "900 7th Ave",
+      "address2": "",
+      "address3": "",
+      "city": "New York",
+      "zip_code": "10019",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["900 7th Ave", "New York, NY 10019"]
+    },
+    "phone": "+12122459800",
+    "display_phone": "(212) 245-9800",
+    "distance": 607.7831852541938,
+    "cuisine": "Italian"
   },
   {
     "id": "dc3hkLkAqCSxDWQzrx-g9A",
@@ -4258,7 +4403,7 @@
     "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/7JK95Qmi9lKwvI7ags6fVA/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/quality-italian-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1406,
+    "review_count": 1409,
     "categories": [
       { "alias": "italian", "title": "Italian" },
       { "alias": "steak", "title": "Steakhouses" },
@@ -4283,7 +4428,8 @@
     },
     "phone": "+12123901111",
     "display_phone": "(212) 390-1111",
-    "distance": 487.85506383973416
+    "distance": 487.85506383973416,
+    "cuisine": "Italian"
   },
   {
     "id": "15k7iqFbhf4h8L01yggLqg",
@@ -4313,7 +4459,8 @@
     },
     "phone": "+12125331242",
     "display_phone": "(212) 533-1242",
-    "distance": 4068.991230626201
+    "distance": 4068.991230626201,
+    "cuisine": "Italian"
   },
   {
     "id": "vVVmHacu2YAxKfpIjhfd1g",
@@ -4343,7 +4490,8 @@
     },
     "phone": "+12128890600",
     "display_phone": "(212) 889-0600",
-    "distance": 1852.9569539012346
+    "distance": 1852.9569539012346,
+    "cuisine": "Italian"
   },
   {
     "id": "B2X53VuOuLyXe0OsGY-ZzA",
@@ -4373,7 +4521,8 @@
     },
     "phone": "+12125093030",
     "display_phone": "(212) 509-3030",
-    "distance": 3366.171307237012
+    "distance": 3366.171307237012,
+    "cuisine": "Italian"
   },
   {
     "id": "GjEE8vvjqb7eeHA3BGNxAw",
@@ -4400,7 +4549,39 @@
     },
     "phone": "+12127545710",
     "display_phone": "(212) 754-5710",
-    "distance": 892.3405971487837
+    "distance": 892.3405971487837,
+    "cuisine": "Italian"
+  },
+  {
+    "id": "hveuXFWS53S1wWpaK0nokw",
+    "alias": "lupetto-new-york",
+    "name": "Lupetto",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/z1exZq7lZOp4qNQJynW-gA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/lupetto-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 4,
+    "categories": [
+      { "alias": "italian", "title": "Italian" },
+      { "alias": "pizza", "title": "Pizza" },
+      { "alias": "cocktailbars", "title": "Cocktail Bars" }
+    ],
+    "rating": 5.0,
+    "coordinates": { "latitude": 40.74332, "longitude": -73.98924 },
+    "transactions": [],
+    "location": {
+      "address1": "1123 Broadway",
+      "address2": "",
+      "address3": null,
+      "city": "New York",
+      "zip_code": "10010",
+      "country": "US",
+      "state": "NY",
+      "display_address": ["1123 Broadway", "New York, NY 10010"]
+    },
+    "phone": "",
+    "display_phone": "",
+    "distance": 2083.1370163658635,
+    "cuisine": "Italian"
   },
   {
     "id": "7_hGsGEkHrjgAiYVjrCFnw",
@@ -4409,7 +4590,7 @@
     "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/oKVsrDjjrIaTWMoOsXMWRg/o.jpg",
     "is_closed": false,
     "url": "https://www.yelp.com/biz/carbone-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 1701,
+    "review_count": 1702,
     "categories": [{ "alias": "italian", "title": "Italian" }],
     "rating": 4.0,
     "coordinates": {
@@ -4430,7 +4611,8 @@
     },
     "phone": "+12122543000",
     "display_phone": "(212) 254-3000",
-    "distance": 4024.2979598050088
+    "distance": 4024.2979598050088,
+    "cuisine": "Italian"
   },
   {
     "id": "k5fd-RSdG4IuXnnGSQ5oOw",
@@ -4447,7 +4629,7 @@
     ],
     "rating": 4.0,
     "coordinates": { "latitude": 40.727966, "longitude": -73.988382 },
-    "transactions": ["pickup", "delivery"],
+    "transactions": ["delivery", "pickup"],
     "price": "$$",
     "location": {
       "address1": "117 Second Ave",
@@ -4461,68 +4643,37 @@
     },
     "phone": "+12127773600",
     "display_phone": "(212) 777-3600",
-    "distance": 3677.021259827236
+    "distance": 3677.021259827236,
+    "cuisine": "Italian"
   },
   {
-    "id": "5EQOEAkH2Qh3Rv1TcnE7yA",
-    "alias": "fiaschetteria-pistoia-new-york-2",
-    "name": "Fiaschetteria Pistoia",
-    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/J7DZeireWwY3X6_p89Y8UA/o.jpg",
+    "id": "YKLvheNuhQ3083AEgx0V2Q",
+    "alias": "casa-soglia-new-york",
+    "name": "Casa Soglia",
+    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/-8sTbgF6YSoh21pnN5J7iw/o.jpg",
     "is_closed": false,
-    "url": "https://www.yelp.com/biz/fiaschetteria-pistoia-new-york-2?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 147,
+    "url": "https://www.yelp.com/biz/casa-soglia-new-york?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
+    "review_count": 13,
     "categories": [
-      { "alias": "tuscan", "title": "Tuscan" },
-      { "alias": "pastashops", "title": "Pasta Shops" }
+      { "alias": "italian", "title": "Italian" },
+      { "alias": "venues", "title": "Venues & Event Spaces" }
     ],
-    "rating": 4.0,
-    "coordinates": {
-      "latitude": 40.733161540060465,
-      "longitude": -74.00538546040627
-    },
-    "transactions": ["pickup", "delivery"],
+    "rating": 5.0,
+    "coordinates": { "latitude": 40.74215, "longitude": -73.98472 },
+    "transactions": [],
     "location": {
-      "address1": "114 Christopher St",
-      "address2": "",
-      "address3": null,
-      "city": "New York",
-      "zip_code": "10014",
-      "country": "US",
-      "state": "NY",
-      "display_address": ["114 Christopher St", "New York, NY 10014"]
-    },
-    "phone": "+16466092911",
-    "display_phone": "(646) 609-2911",
-    "distance": 3765.465919793799
-  },
-  {
-    "id": "faukkggAc_tuJ4THYlf4fg",
-    "alias": "la-masseria-new-york-3",
-    "name": "La Masseria",
-    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/uVk-qS1ssZ64EVkMcV4ocA/o.jpg",
-    "is_closed": false,
-    "url": "https://www.yelp.com/biz/la-masseria-new-york-3?adjust_creative=fZYQHrtbBUqcd4hAFJolzQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=fZYQHrtbBUqcd4hAFJolzQ",
-    "review_count": 719,
-    "categories": [{ "alias": "italian", "title": "Italian" }],
-    "rating": 4.0,
-    "coordinates": {
-      "latitude": 40.760868632784,
-      "longitude": -73.986348802868
-    },
-    "transactions": ["pickup", "delivery"],
-    "price": "$$$",
-    "location": {
-      "address1": "235 W 48th St",
-      "address2": "",
+      "address1": "365 Park Ave S",
+      "address2": null,
       "address3": "",
       "city": "New York",
-      "zip_code": "10036",
+      "zip_code": "10016",
       "country": "US",
       "state": "NY",
-      "display_address": ["235 W 48th St", "New York, NY 10036"]
+      "display_address": ["365 Park Ave S", "New York, NY 10016"]
     },
-    "phone": "+12125822111",
-    "display_phone": "(212) 582-2111",
-    "distance": 665.0109419597989
+    "phone": "+12125329100",
+    "display_phone": "(212) 532-9100",
+    "distance": 2079.9754236747253,
+    "cuisine": "Italian"
   }
 ]

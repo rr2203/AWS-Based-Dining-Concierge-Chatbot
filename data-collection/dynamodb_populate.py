@@ -2,9 +2,9 @@ from decimal import Decimal
 import boto3
 import json
 import time
+import os
 
 dynamodb = boto3.resource('dynamodb')
-
 
 def delete_table_if_exists(table_name):
     """
@@ -51,7 +51,11 @@ def create_dynamodb_table():
 
 
 def batch_insert_into_dynamodb():
-    with open('manhattan_restaurants.json', 'r') as file:
+    script_directory = os.path.dirname(os.path.abspath(__file__))
+    json_file_path = os.path.join(
+        script_directory, 'static', 'yelp_restaurants.json')
+
+    with open(json_file_path, 'r') as file:  # Update the file path here
         all_restaurants = json.load(file)
 
     print(f"Attempting to insert {len(all_restaurants)} restaurants...")
@@ -75,7 +79,9 @@ def batch_insert_into_dynamodb():
                     'rating': Decimal(str(restaurant['rating'])),
                     'zip_code': restaurant['location']['zip_code'],
                     # UTC time
-                    'insertedAtTimestamp': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+                    'insertedAtTimestamp': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
+                    # Add the cuisine key here
+                    'cuisine': restaurant['cuisine']
                 }
                 batch_writer.put_item(Item=data)
                 print(f"Inserted restaurant: {restaurant['name']}")
