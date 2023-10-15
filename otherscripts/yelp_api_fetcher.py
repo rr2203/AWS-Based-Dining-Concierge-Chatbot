@@ -52,21 +52,6 @@ def fetch_all_restaurants():
         json.dump(all_restaurants, file)
 
     print(f"Total restaurants collected: {len(all_restaurants)}")
-    all_restaurants = []
-    cuisines = ["Chinese", "Mexican", "Italian"]
-
-    for cuisine in cuisines:
-        all_restaurants.extend(get_restaurants_for_cuisine(cuisine))
-
-    # Ensure 'static' directory exists
-    if not os.path.exists('static'):
-        os.makedirs('static')
-
-    # Save the collected restaurants to a JSON file inside 'static' folder
-    with open('static/yelp_restaurants.json', 'w') as file:
-        json.dump(all_restaurants, file)
-
-    print(f"Total restaurants collected: {len(all_restaurants)}")
 
 
 if __name__ == "__main__":
