@@ -6,6 +6,7 @@ import requests
 sqs = boto3.client('sqs')
 dynamodb = boto3.resource('dynamodb')
 ses = boto3.client('ses')
+dynamodb_client = boto3.client('dynamodb')
 
 queue_url = 'https://sqs.us-east-1.amazonaws.com/315615451600/suggestion'
 
@@ -49,17 +50,41 @@ def query_elasticsearch_for_cuisine(cuisine):
         print(f"Error {response.status_code}: {response.text}")
         return []
 
-def get_restaurant_by_id(restaurant_id):
-    print(f"Fetching restaurant with ID: {restaurant_id}.")
-    table = dynamodb.Table('yelp-restaurants')
 
-    try:
-        response = table.get_item(Key={'id': restaurant_id})
-    except Exception as e:
-        print(str(e))
-        return None
 
-    return response.get('Item')
+def dynamo_to_dict(item):
+    """
+    Convert DynamoDB item to python dict.
+    """
+    converted = {}
+    for k, v in item.items():
+        if 'S' in v:
+            converted[k] = v['S']
+        elif 'N' in v:
+            converted[k] = float(v['N']) if '.' in v['N'] else int(v['N'])
+        elif 'BOOL' in v:
+            converted[k] = v['BOOL']
+        # Add other data types if needed
+    return converted
+
+def get_restaurants_by_ids(restaurant_ids):
+    print(f"Fetching restaurants with IDs: {restaurant_ids}.")
+    
+    keys = [{'id': {'S': rid}} for rid in restaurant_ids]
+    response = dynamodb_client.batch_get_item(
+        RequestItems={
+            'yelp-restaurants': {
+                'Keys': keys
+            }
+        }
+    )
+
+    # Convert the items fetched
+    items = response['Responses']['yelp-restaurants']
+    return [dynamo_to_dict(item) for item in items]
+
+
+
 
 def send_email_to_user(email, restaurants):
     print(f"Sending email to {email}.")
@@ -82,20 +107,21 @@ def send_email_to_user(email, restaurants):
     return response
 
 
-
-email, cuisine = get_message_from_sqs()
-if email and cuisine:
-    restaurant_ids = query_elasticsearch_for_cuisine(cuisine)
-    if restaurant_ids:
-        # Fetch details of up to 5 restaurants
-        restaurants = [get_restaurant_by_id(rid) for rid in restaurant_ids[:5] if get_restaurant_by_id(rid)]
-        
-        # Send a consolidated email with all the suggestions
-        send_email_to_user(email, restaurants)
-        names = ', '.join([r['name'] for r in restaurants])
-        print(f"Email sent to {email} with suggestions for restaurants: {names}.")
+def lambda_handler(event, context):
+    email, cuisine = get_message_from_sqs()
+    if email and cuisine:
+        restaurant_ids = query_elasticsearch_for_cuisine(cuisine)
+        if restaurant_ids:
+            # Fetch details of up to 5 restaurants
+            restaurants = get_restaurants_by_ids(restaurant_ids[:5])
+            
+            # Send a consolidated email with all the suggestions
+            send_email_to_user(email, restaurants)
+            names = ', '.join([r['name'] for r in restaurants])
+            print(f"Email sent to {email} with suggestions for restaurants: {names}.")
+        else:
+            print(f"No restaurants found for cuisine: {cuisine}")
     else:
-        print(f"No restaurants found for cuisine: {cuisine}")
-else:
-    print("No messages in SQS.")
+        print("No messages in SQS.")
+
 
