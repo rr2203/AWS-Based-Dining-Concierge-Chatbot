@@ -2,8 +2,6 @@ import boto3
 import json
 
 def lambda_handler(event, context):
-    print("yolo")
-    print(event)
     client = boto3.client('lex-runtime')
     
     # Extract the inputText from the event body
