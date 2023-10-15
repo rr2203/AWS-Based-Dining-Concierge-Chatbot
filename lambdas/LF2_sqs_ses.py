@@ -19,7 +19,7 @@ def get_message_from_sqs():
         print(f"Received message: {message_body}")
 
         # delete the message from SQS
-        sqs.delete_message(QueueUrl=queue_url, ReceiptHandle=message['ReceiptHandle'])
+        # sqs.delete_message(QueueUrl=queue_url, ReceiptHandle=message['ReceiptHandle'])
         print("Message deleted from SQS.")
 
         return message_body['Email'], message_body['Cuisine']
@@ -27,7 +27,7 @@ def get_message_from_sqs():
 
 def query_elasticsearch_for_cuisine(cuisine):
     print(f"Querying Elasticsearch for cuisine: {cuisine}.")
-    url = 'https://search-restaurants-vzgjpri2bsqcbj7qaslzx2cvvm.us-east-1.es.amazonaws.com/your_index_name/_search?pretty'
+    url = 'https://search-restaurants-vzgjpri2bsqcbj7qaslzx2cvvm.us-east-1.es.amazonaws.com/restaurants/_search?pretty'
     headers = {
         'Content-Type': 'application/json'
     }
@@ -61,10 +61,14 @@ def get_restaurant_by_id(restaurant_id):
 
     return response.get('Item')
 
-def send_email_to_user(email, restaurant):
+def send_email_to_user(email, restaurants):
     print(f"Sending email to {email}.")
-    subject = "Restaurant Suggestion"
-    body = f"Hello! We suggest you try {restaurant['name']} located at {restaurant['address']}. Enjoy your meal!"
+    subject = "Restaurant Suggestions"
+    body_lines = [f"Hello! Based on your preference, we suggest you try the following restaurants:"]
+    for restaurant in restaurants:
+        body_lines.append(f"{restaurant['name']} located at {restaurant['address']}.")
+    body_lines.append("Enjoy your meal!")
+    body = '\n'.join(body_lines)
     response = ses.send_email(
         Source='rr4185@nyu.edu',
         Destination={
@@ -77,17 +81,21 @@ def send_email_to_user(email, restaurant):
     )
     return response
 
+
+
 email, cuisine = get_message_from_sqs()
 if email and cuisine:
     restaurant_ids = query_elasticsearch_for_cuisine(cuisine)
     if restaurant_ids:
-        restaurant = get_restaurant_by_id(restaurant_ids[0])
-        if restaurant:
-            send_email_to_user(email, restaurant)
-            print(f"Email sent to {email} for restaurant {restaurant['name']}.")
-        else:
-            print(f"No restaurant found with ID: {restaurant_ids[0]}")
+        # Fetch details of up to 5 restaurants
+        restaurants = [get_restaurant_by_id(rid) for rid in restaurant_ids[:5] if get_restaurant_by_id(rid)]
+        
+        # Send a consolidated email with all the suggestions
+        send_email_to_user(email, restaurants)
+        names = ', '.join([r['name'] for r in restaurants])
+        print(f"Email sent to {email} with suggestions for restaurants: {names}.")
     else:
         print(f"No restaurants found for cuisine: {cuisine}")
 else:
     print("No messages in SQS.")
+

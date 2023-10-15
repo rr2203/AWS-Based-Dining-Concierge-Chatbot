@@ -2,7 +2,7 @@ import requests
 import json
 
 def query_elasticsearch_for_cuisine(cuisine):
-    url = 'https://search-restaurants-vzgjpri2bsqcbj7qaslzx2cvvm.us-east-1.es.amazonaws.com/your_index_name/_search?pretty'
+    url = 'https://search-restaurants-vzgjpri2bsqcbj7qaslzx2cvvm.us-east-1.es.amazonaws.com/restaurants/_search?pretty'
     headers = {
         'Content-Type': 'application/json'
     }
@@ -25,6 +25,6 @@ def query_elasticsearch_for_cuisine(cuisine):
         return []
 
 # Test
-cuisine_to_search = "Chinese"
+cuisine_to_search = "Mexican"
 ids = query_elasticsearch_for_cuisine(cuisine_to_search)
 print(f"Found restaurants with IDs: {ids} for cuisine {cuisine_to_search}")

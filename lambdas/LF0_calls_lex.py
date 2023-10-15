@@ -1,12 +1,11 @@
 import boto3
 import json
 
-
 def lambda_handler(event, context):
     print("yolo")
     print(event)
     client = boto3.client('lex-runtime')
-
+    
     # Extract the inputText from the event body
     body = json.loads(event['body'])
     inputText = body['messages'][0]['unstructured']['text']
@@ -19,7 +18,7 @@ def lambda_handler(event, context):
             inputText=inputText,  # Use extracted inputText from event
             sessionAttributes={}
         )
-
+        
         # Transform Lex response into expected format
         transformed_response = {
             'messages': [{
@@ -29,7 +28,7 @@ def lambda_handler(event, context):
                 }
             }]
         }
-
+        
         return {
             'statusCode': 200,
             'headers': {
@@ -39,7 +38,7 @@ def lambda_handler(event, context):
             },
             'body': json.dumps(transformed_response)
         }
-
+        
     except Exception as e:
         return {
             'statusCode': 500,

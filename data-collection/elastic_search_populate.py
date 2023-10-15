@@ -1,5 +1,6 @@
 import json
 import os
+import requests
 
 # Get the directory in which this script resides
 script_directory = os.path.dirname(os.path.abspath(__file__))
@@ -17,7 +18,7 @@ es_data = []
 for entry in data:
     index_data = {
         "index": {
-            "_index": "your_index_name",  # Replace with your actual index name
+            "_index": "restaurants",  # Replace with your actual index name
             "_id": entry['id']
         }
     }
@@ -30,4 +31,14 @@ with open(output_path, 'w') as file:
         json.dump(item, file)
         file.write('\n')
 
-print("Data conversion completed. Ready for Elasticsearch bulk loading.")
+# Step 4: Make a PUT request to Elasticsearch
+with open(output_path, 'r') as file:
+    bulk_data = file.read()
+
+url = "https://search-restaurants-vzgjpri2bsqcbj7qaslzx2cvvm.us-east-1.es.amazonaws.com/restaurants/_bulk?pretty"
+headers = {"Content-Type": "application/json"}
+response = requests.put(url, auth=(
+    'haywire2210', 'RahulRaj1$'), data=bulk_data, headers=headers)
+
+print(response.json())
+print("Data conversion completed. Elasticsearch bulk loading completed.")
