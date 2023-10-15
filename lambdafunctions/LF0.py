@@ -3,21 +3,28 @@ import json
 
 def lambda_handler(event, context):
     client = boto3.client('lex-runtime')
-    
-    # Extract the inputText from the event body
+
+    # Logging: Print event for debugging
+    print("Received event:", event)
+
     body = json.loads(event['body'])
     inputText = body['messages'][0]['unstructured']['text']
+
+    # Logging: Print the extracted inputText
+    print("Input text extracted:", inputText)
 
     try:
         response = client.post_text(
             botName='Concierge',
             botAlias='Stage',
-            userId='rahul',  # Unique ID for the user
-            inputText=inputText,  # Use extracted inputText from event
+            userId='rahul',
+            inputText=inputText,
             sessionAttributes={}
         )
-        
-        # Transform Lex response into expected format
+
+        # Logging: Print Lex response
+        print("Received response from Lex:", response)
+
         transformed_response = {
             'messages': [{
                 'type': 'unstructured',
@@ -26,7 +33,7 @@ def lambda_handler(event, context):
                 }
             }]
         }
-        
+
         return {
             'statusCode': 200,
             'headers': {
@@ -36,8 +43,11 @@ def lambda_handler(event, context):
             },
             'body': json.dumps(transformed_response)
         }
-        
+
     except Exception as e:
+        # Logging: Print the exception for debugging
+        print("Exception encountered:", e)
+
         return {
             'statusCode': 500,
             'headers': {

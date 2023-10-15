@@ -6,9 +6,11 @@ dynamodb_client = boto3.client('dynamodb')
 queue_url = 'https://sqs.us-east-1.amazonaws.com/315615451600/suggestion'  # replace with your SQS queue URL
 
 def lambda_handler(event, context):
+    print(f"Lambda invoked with event: {event}")
     intent_name = event['currentIntent']['name']
+    print(f"Intent name found: {intent_name}")
+    
     handlers = {
-
         "ThankYou": handle_thank_you,
         "DiningSuggestions": handle_dining_suggestions,
         "Greeting": handle_greeting
@@ -18,6 +20,7 @@ def lambda_handler(event, context):
     if handler:
         return handler(event)
     else:
+        print(f"No handler found for intent: {intent_name}")
         return default_response()
 
 
@@ -28,7 +31,7 @@ def handle_greeting(event):
     if email:
         last_searched_content = checkPreviousSearches(email)
         if last_searched_content:
-            response_content = f"Hi! Your previous searches were: {last_searched_content}.  How else can I assist you today?"
+            response_content = f"Hi! Your previous recommendations were: {last_searched_content}.  How else can I assist you today?"
         else:
             response_content = f"Hi! I couldn't find any previous searches. How can I assist you today?"
         
@@ -78,15 +81,19 @@ def handle_dining_suggestions(event):
 
 def send_to_sqs(message_body):
     """Send a message to the SQS queue. Return True if successful, else False."""
+    print(f"Sending message to SQS: {message_body}")
     try:
         sqs.send_message(QueueUrl=queue_url, MessageBody=json.dumps(message_body))
+        print(f"Message sent successfully to SQS.")
         return True
     except Exception as e:
         print(f"Error sending message to SQS: {e}")
         return False
 
 def default_response():
+    print("Entering default response")
     return create_response("Close", "Fulfilled", "I'm sorry, I didn't understand that.")
+
 
 def create_response(type, fulfillmentState, content, slotToElicit=None):
     """Generate a dialogAction response with the given parameters."""
@@ -106,6 +113,8 @@ def create_response(type, fulfillmentState, content, slotToElicit=None):
 
 def checkPreviousSearches(email):
     table_name = 'previous-searches'
+    print(f"Checking previous searches for email: {email}")
+    
     try:
         response = dynamodb_client.get_item(
             TableName=table_name,
@@ -113,9 +122,10 @@ def checkPreviousSearches(email):
                 'email': {'S': email}
             }
         )
-        print(response)
+        print(f"DynamoDB response: {response}")
+        
         if 'Item' in response:
             return response['Item']['restaurant_names']['S']
     except Exception as e:
-        print(f"Error retrieving email content from DynamoDB: {e}")
+        print(f"Error fetching restaurant_names from DynamoDB: {e}")
     return None

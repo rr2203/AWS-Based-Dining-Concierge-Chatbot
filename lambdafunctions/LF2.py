@@ -9,6 +9,7 @@ queue_url = 'https://sqs.us-east-1.amazonaws.com/315615451600/suggestion'
 
 def get_message_from_sqs():
     response = sqs.receive_message(QueueUrl=queue_url, MaxNumberOfMessages=1)
+    print(f"SQS Response: {response}")
     if 'Messages' in response:
         message = response['Messages'][0]
         message_body = json.loads(message['Body'])
@@ -16,6 +17,7 @@ def get_message_from_sqs():
     return None, None
 
 def query_elasticsearch_for_cuisine(cuisine):
+    print(f"Querying Elasticsearch for cuisine: {cuisine}")
     url = 'https://search-restaurants-vzgjpri2bsqcbj7qaslzx2cvvm.us-east-1.es.amazonaws.com/restaurants/_search?pretty'
     headers = {'Content-Type': 'application/json'}
     auth = ('haywire2210', 'RahulRaj1$')
@@ -27,6 +29,7 @@ def query_elasticsearch_for_cuisine(cuisine):
         }
     }
     response = requests.get(url, headers=headers, auth=auth, data=json.dumps(query))
+    print(f"Elasticsearch response: {response.status_code}")
     if response.status_code == 200:
         results = response.json()
         ids = [hit['_id'] for hit in results['hits']['hits']]
@@ -45,8 +48,10 @@ def dynamo_to_dict(item):
     return converted
 
 def get_restaurants_by_ids(restaurant_ids):
+    print(f"Fetching restaurants by IDs: {restaurant_ids}")
     keys = [{'id': {'S': rid}} for rid in restaurant_ids]
     response = dynamodb_client.batch_get_item(RequestItems={'yelp-restaurants': {'Keys': keys}})
+    print(f"DynamoDB batch_get_item response: {response}")
     items = response['Responses']['yelp-restaurants']
     return [dynamo_to_dict(item) for item in items]
 
@@ -58,6 +63,7 @@ def create_email_content(email, restaurants):
     return '\n'.join(body_lines)
 
 def store_restaurant_names_in_dynamodb(email, restaurants):
+    print(f"Storing restaurants for email: {email}")
     table_name = 'previous-searches'
     restaurant_names = ', '.join([restaurant['name'] for restaurant in restaurants])
     response = dynamodb_client.put_item(
@@ -67,22 +73,26 @@ def store_restaurant_names_in_dynamodb(email, restaurants):
             'restaurant_names': {'S': restaurant_names}
         }
     )
+    print(f"DynamoDB put_item response: {response}")
     return response
 
 def lambda_handler(event, context):
+    print(f"Lambda handler invoked with event: {event}")
     email, cuisine = get_message_from_sqs()
     if email and cuisine:
         restaurant_ids = query_elasticsearch_for_cuisine(cuisine)
         if restaurant_ids:
             top_5_ids = restaurant_ids[:5]
             restaurants = get_restaurants_by_ids(top_5_ids)
-            store_restaurant_names_in_dynamodb(email, restaurants)  # store the names of the top 5 restaurants
+            store_restaurant_names_in_dynamodb(email, restaurants)
             email_content = create_email_content(email, restaurants)
             subject = "Restaurant Suggestions"
+            print(f"Sending email to {email} with subject: {subject}")
             response = ses.send_email(
                 Source='rr4185@nyu.edu',
                 Destination={'ToAddresses': [email]},
                 Message={'Subject': {'Data': subject},'Body': {'Text': {'Data': email_content}}}
             )
+            print(f"SES send_email response: {response}")
 
 
