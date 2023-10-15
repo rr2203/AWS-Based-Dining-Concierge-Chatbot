@@ -20,7 +20,7 @@ def get_message_from_sqs():
         print(f"Received message: {message_body}")
 
         # delete the message from SQS
-        # sqs.delete_message(QueueUrl=queue_url, ReceiptHandle=message['ReceiptHandle'])
+        sqs.delete_message(QueueUrl=queue_url, ReceiptHandle=message['ReceiptHandle'])
         print("Message deleted from SQS.")
 
         return message_body['Email'], message_body['Cuisine']
