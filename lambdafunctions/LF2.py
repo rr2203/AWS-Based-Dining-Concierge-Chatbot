@@ -13,6 +13,7 @@ def get_message_from_sqs():
     if 'Messages' in response:
         message = response['Messages'][0]
         message_body = json.loads(message['Body'])
+        sqs.delete_message(QueueUrl=queue_url, ReceiptHandle=message['ReceiptHandle'])
         return message_body['Email'], message_body['Cuisine']
     return None, None
 
@@ -62,10 +63,10 @@ def create_email_content(email, restaurants):
     body_lines.append("Enjoy your meal!")
     return '\n'.join(body_lines)
 
-def store_restaurant_names_in_dynamodb(email, restaurants):
+def store_restaurant_names_in_dynamodb(email, email_content):
     print(f"Storing restaurants for email: {email}")
     table_name = 'previous-searches'
-    restaurant_names = ', '.join([restaurant['name'] for restaurant in restaurants])
+    restaurant_names = email_content
     response = dynamodb_client.put_item(
         TableName=table_name,
         Item={
@@ -84,8 +85,8 @@ def lambda_handler(event, context):
         if restaurant_ids:
             top_5_ids = restaurant_ids[:5]
             restaurants = get_restaurants_by_ids(top_5_ids)
-            store_restaurant_names_in_dynamodb(email, restaurants)
             email_content = create_email_content(email, restaurants)
+            store_restaurant_names_in_dynamodb(email, email_content)
             subject = "Restaurant Suggestions"
             print(f"Sending email to {email} with subject: {subject}")
             response = ses.send_email(

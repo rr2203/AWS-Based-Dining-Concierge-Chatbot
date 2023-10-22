@@ -2,6 +2,7 @@ import json
 import boto3
 
 sqs = boto3.client('sqs')
+ses = boto3.client('ses')
 dynamodb_client = boto3.client('dynamodb')
 queue_url = 'https://sqs.us-east-1.amazonaws.com/315615451600/suggestion'  # replace with your SQS queue URL
 
@@ -31,7 +32,15 @@ def handle_greeting(event):
     if email:
         last_searched_content = checkPreviousSearches(email)
         if last_searched_content:
-            response_content = f"Hi! Your previous recommendations were: {last_searched_content}.  How else can I assist you today?"
+            subject = "Previous Restaurant Suggestions"
+            print(f"Sending email to {email} with subject: {subject}")
+            response = ses.send_email(
+                Source='rr4185@nyu.edu',
+                Destination={'ToAddresses': [email]},
+                Message={'Subject': {'Data': subject},'Body': {'Text': {'Data': last_searched_content}}}
+            )
+            print(f"SES send_email response: {response}")
+            response_content = f"Hi! Your previously suggested recommendations were emailed to you.  How else can I assist you today?"
         else:
             response_content = f"Hi! I couldn't find any previous searches. How can I assist you today?"
         
