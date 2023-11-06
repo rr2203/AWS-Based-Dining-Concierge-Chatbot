@@ -1,6 +1,6 @@
 # Concierge
 
-Contributors: Rahul Raj (rr4185), Pulkit Khandelwal (pk2660)
+Cloud native dining bot
 
 Demo Youtube Link: https://youtu.be/S5eZh675Gz4
 
